@@ -1,0 +1,12 @@
+node_modules
+.dist
+/dist
+coverage
+.env
+.env.*
+!.env.example
+.DS_Store
+.vscode
+
+# runtime cache
+data/maal-price.json

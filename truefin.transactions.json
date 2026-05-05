@@ -1,0 +1,6747 @@
+[{
+  "_id": {
+    "$oid": "68f5cd31b0bbbfdadd77fa27"
+  },
+  "userId": {
+    "$oid": "68f3c580820ee24aae9b8421"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "failed",
+  "amount": 100,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 2.63,
+    "totalFee": 27.63
+  },
+  "finalAmount": 72.38,
+  "txHash": "9372a7847f03d51ba4c8741fe20f4bb1c2bfa6c21e42dd168a342b16bc4ac7fd",
+  "fromAddress": "TW49QnCfNPKXCeuKnvYTXYqMk4UUpTLFnJ",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "cardType": "visa-virtual",
+  "metadata": {
+    "cardName": "Visa Virtual",
+    "network": "TRON",
+    "timestamp": "2025-10-20T05:48:32.877Z",
+    "createdTimestamp": "2025-10-20T05:48:33.243Z",
+    "lastChecked": "2025-10-20T05:49:35.478Z",
+    "failureReason": "Transaction has status field in receipt",
+    "receiptStatus": "FAILED"
+  },
+  "createdAt": {
+    "$date": "2025-10-20T05:48:33.245Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-20T05:49:35.479Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f72cfa8a686841dd52c785"
+  },
+  "userId": {
+    "$oid": "68f3c580820ee24aae9b8421"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 25,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0,
+    "totalFee": 25
+  },
+  "finalAmount": 0,
+  "txHash": "781ea3aa15accc682c95db5457b45d179055a701b96e2903854ce43f97291abf",
+  "fromAddress": "TXVUdcPwK3KdayFHSA8tDVcR73iK3qTMt1",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "cardType": "visa-virtual",
+  "metadata": {
+    "cardName": "Visa Virtual",
+    "network": "TRON",
+    "timestamp": "2025-10-21T06:49:28.720Z",
+    "productCode": "C0000017",
+    "currency": "USD",
+    "bin": "52489710",
+    "isOnlyIssuance": true,
+    "isTopup": false,
+    "createdTimestamp": "2025-10-21T06:49:30.595Z",
+    "lastChecked": "2025-10-21T06:50:32.916Z",
+    "blockNumber": 61534497,
+    "blockTimeStamp": 1761029370000,
+    "fee": 1386900,
+    "energyUsage": 13869,
+    "energyFee": 1386900
+  },
+  "createdAt": {
+    "$date": "2025-10-21T06:49:30.608Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-21T06:50:32.919Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f73ea188e9fe255959d98f"
+  },
+  "userId": {
+    "$oid": "68f3c580820ee24aae9b8421"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 25,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0,
+    "totalFee": 25
+  },
+  "finalAmount": 0,
+  "txHash": "ca2f5756d5d368a8cd8febc9022309f872460a455aff4100d2b217ebb110ada4",
+  "fromAddress": "TXVUdcPwK3KdayFHSA8tDVcR73iK3qTMt1",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "cardType": "visa-virtual",
+  "metadata": {
+    "cardName": "Visa Virtual",
+    "network": "TRON",
+    "timestamp": "2025-10-21T08:04:49.485Z",
+    "productCode": "C0000017",
+    "currency": "USD",
+    "bin": "52489710",
+    "isOnlyIssuance": true,
+    "isTopup": false,
+    "createdTimestamp": "2025-10-21T08:04:49.867Z",
+    "lastChecked": "2025-10-21T08:09:13.619Z",
+    "blockNumber": 61536000,
+    "blockTimeStamp": 1761033891000,
+    "fee": 1732900,
+    "energyUsage": 13869,
+    "energyFee": 1386900,
+    "netFee": 346000
+  },
+  "createdAt": {
+    "$date": "2025-10-21T08:04:49.886Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-21T08:09:13.624Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f74de2002d107f4f6d3a99"
+  },
+  "userId": {
+    "$oid": "68f3c580820ee24aae9b8421"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 35,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.35,
+    "totalFee": 25.35
+  },
+  "finalAmount": 9.65,
+  "txHash": "16aee89b14595a4550bdda81ac1afb34ebd2ddd3843cffc7b9e1293d771c31e9",
+  "fromAddress": "TJsDBYh3hVnuZraZvBrDEDfM8KWvuB6E2B",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "cardType": "visa-virtual",
+  "metadata": {
+    "cardName": "Visa Virtual",
+    "network": "TRON",
+    "timestamp": "2025-10-21T09:09:53.315Z",
+    "productCode": "E0W00009",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": true,
+    "isTopup": false,
+    "createdTimestamp": "2025-10-21T09:09:54.766Z",
+    "lastChecked": "2025-10-21T09:10:56.307Z",
+    "blockNumber": 76792332,
+    "blockTimeStamp": 1761037794000,
+    "fee": 13028500,
+    "energyUsage": 130285,
+    "energyFee": 13028500,
+    "cardIssuanceStatus": "inprocess",
+    "cardIssuanceAttempt": "2025-10-22T09:05:17.288Z",
+    "cardDocId": 898902600,
+    "cardRequestId": "1bb499b0-08b1-4029-ad34-da9ac1804766",
+    "lastRetryBy": "amdin",
+    "lastRetryAt": "2025-10-22T09:05:17.288Z",
+    "cardIssuanceError": "API returned without docId"
+  },
+  "createdAt": {
+    "$date": "2025-10-21T09:09:54.772Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-22T09:05:17.289Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "68f75794f7c039f0adfd04bb"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8e6384e8896991c1e7925"
+  },
+  "userId": {
+    "$oid": "68f3c580820ee24aae9b8421"
+  },
+  "cardId": {
+    "$oid": "68f75794f7c039f0adfd04bb"
+  },
+  "type": "card_topup",
+  "status": "pending",
+  "result": "pending",
+  "amount": 25.875,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 0.875,
+    "totalFee": 0.875
+  },
+  "finalAmount": 25,
+  "txHash": "f0254e4f51b1a08c621d7a5dc48c86b7b0864454db8e05ca512937c022634358",
+  "fromAddress": "TXVUdcPwK3KdayFHSA8tDVcR73iK3qTMt1",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "metadata": {
+    "san": "91cc0f7620251022170518",
+    "topupAmount": 25,
+    "feeAmount": 0.875,
+    "feePercentage": 3.5,
+    "totalPaid": 25.875,
+    "currency": "USD",
+    "cardBalance": 9.65,
+    "previousBalance": 9.65,
+    "estimatedNewBalance": 34.65
+  },
+  "createdAt": {
+    "$date": "2025-10-22T14:12:08.196Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-22T14:12:08.196Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f8e98cbc18c9260c1a73df"
+  },
+  "userId": {
+    "$oid": "68f3c580820ee24aae9b8421"
+  },
+  "cardId": {
+    "$oid": "68f75794f7c039f0adfd04bb"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 25.875,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 0.875,
+    "totalFee": 0.875
+  },
+  "finalAmount": 25,
+  "txHash": "2026901a4733b42be25bb83c1b2d2244120ce9d93e4d5603b894cf54c366b758",
+  "fromAddress": "TXVUdcPwK3KdayFHSA8tDVcR73iK3qTMt1",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "metadata": {
+    "san": "91cc0f7620251022170518",
+    "topupAmount": 25,
+    "feeAmount": 0.875,
+    "feePercentage": 3.5,
+    "totalPaid": 25.875,
+    "currency": "USD",
+    "cardBalance": 9.65,
+    "previousBalance": 9.65,
+    "estimatedNewBalance": 34.65,
+    "lastChecked": "2025-10-22T17:13:53.832Z",
+    "blockNumber": 61572307,
+    "blockTimeStamp": 1761143178000,
+    "fee": 1732900,
+    "energyUsage": 13869,
+    "energyFee": 1386900,
+    "netFee": 346000,
+    "externalTopupSuccess": true,
+    "request_id": "f77146f0-a272-459b-b07a-91429cf0b58e",
+    "topupid": 96044514,
+    "externalTopupResponse": {
+      "topupid": 96044514,
+      "request_id": "f77146f0-a272-459b-b07a-91429cf0b58e"
+    },
+    "externalTopupTimestamp": "2025-10-22T17:13:53.876Z"
+  },
+  "createdAt": {
+    "$date": "2025-10-22T14:26:20.071Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-22T17:13:53.877Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f8ecfe1065517ce9b2e0d0"
+  },
+  "userId": {
+    "$oid": "68f3c580820ee24aae9b8421"
+  },
+  "cardId": {
+    "$oid": "68f75794f7c039f0adfd04bb"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 25.875,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 0.875,
+    "totalFee": 0.875
+  },
+  "finalAmount": 25,
+  "txHash": "404ea9e9054d1390d97e3a5c4fd4e32c4dbd082516c217de0387a23a76ada698",
+  "fromAddress": "TXVUdcPwK3KdayFHSA8tDVcR73iK3qTMt1",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "metadata": {
+    "san": "91cc0f7620251022170518",
+    "topupAmount": 25,
+    "feeAmount": 0.875,
+    "feePercentage": 3.5,
+    "totalPaid": 25.875,
+    "currency": "USD",
+    "cardBalance": 9.65,
+    "previousBalance": 9.65,
+    "estimatedNewBalance": 34.65,
+    "lastChecked": "2025-10-22T14:42:15.571Z",
+    "blockNumber": 61572600,
+    "blockTimeStamp": 1761144063000,
+    "fee": 1732900,
+    "energyUsage": 13869,
+    "energyFee": 1386900,
+    "netFee": 346000
+  },
+  "createdAt": {
+    "$date": "2025-10-22T14:41:02.888Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-22T14:42:15.572Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f8eea71065517ce9b2e0e3"
+  },
+  "userId": {
+    "$oid": "68f3c580820ee24aae9b8421"
+  },
+  "cardId": {
+    "$oid": "68f75794f7c039f0adfd04bb"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 51.75,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 1.75,
+    "totalFee": 1.75
+  },
+  "finalAmount": 50,
+  "txHash": "841ad15d59114cb9256d37182b9e08749566b0ea315e52b91b0e6a41a5336264",
+  "fromAddress": "TXVUdcPwK3KdayFHSA8tDVcR73iK3qTMt1",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "metadata": {
+    "san": "91cc0f7620251022170518",
+    "topupAmount": 50,
+    "feeAmount": 1.75,
+    "feePercentage": 3.5,
+    "totalPaid": 51.75,
+    "currency": "USD",
+    "cardBalance": 9.65,
+    "previousBalance": 9.65,
+    "estimatedNewBalance": 59.65,
+    "lastChecked": "2025-10-22T14:49:23.358Z",
+    "blockNumber": 61572742,
+    "blockTimeStamp": 1761144489000,
+    "fee": 1732900,
+    "energyUsage": 13869,
+    "energyFee": 1386900,
+    "netFee": 346000
+  },
+  "createdAt": {
+    "$date": "2025-10-22T14:48:07.295Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-22T14:49:23.360Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f8f04d1065517ce9b2e0f6"
+  },
+  "userId": {
+    "$oid": "68f3c580820ee24aae9b8421"
+  },
+  "cardId": {
+    "$oid": "68f75794f7c039f0adfd04bb"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 25.875,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 0.875,
+    "totalFee": 0.875
+  },
+  "finalAmount": 25,
+  "txHash": "d557eeeb74a74e7aa0b448e147c5601e3b584aa5b781b8a285fde246f71dfde5",
+  "fromAddress": "TXVUdcPwK3KdayFHSA8tDVcR73iK3qTMt1",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "metadata": {
+    "san": "91cc0f7620251022170518",
+    "topupAmount": 25,
+    "feeAmount": 0.875,
+    "feePercentage": 3.5,
+    "totalPaid": 25.875,
+    "currency": "USD",
+    "cardBalance": 9.65,
+    "previousBalance": 9.65,
+    "estimatedNewBalance": 34.65,
+    "lastChecked": "2025-10-22T17:13:21.796Z",
+    "blockNumber": 61572883,
+    "blockTimeStamp": 1761144912000,
+    "fee": 1732900,
+    "energyUsage": 13869,
+    "energyFee": 1386900,
+    "netFee": 346000,
+    "externalTopupSuccess": true,
+    "request_id": "f77146f0-a272-459b-b07a-91429cf0b58e",
+    "topupid": 96044514,
+    "externalTopupResponse": {
+      "topupid": 96044514,
+      "request_id": "f77146f0-a272-459b-b07a-91429cf0b58e"
+    },
+    "externalTopupTimestamp": "2025-10-22T17:13:21.848Z"
+  },
+  "createdAt": {
+    "$date": "2025-10-22T14:55:09.650Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-22T17:13:21.850Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f8f40342998d912236e197"
+  },
+  "userId": {
+    "$oid": "68f3c580820ee24aae9b8421"
+  },
+  "cardId": {
+    "$oid": "68f75794f7c039f0adfd04bb"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 25.875,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 0.875,
+    "totalFee": 0.875
+  },
+  "finalAmount": 25,
+  "txHash": "ef34d9a5adb18d3d2871742a77766054009e214fb89eccf576ea9dc3aa46dd31",
+  "fromAddress": "TXVUdcPwK3KdayFHSA8tDVcR73iK3qTMt1",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "metadata": {
+    "san": "91cc0f7620251022170518",
+    "topupAmount": 25,
+    "feeAmount": 0.875,
+    "feePercentage": 3.5,
+    "totalPaid": 25.875,
+    "currency": "USD",
+    "cardBalance": 9.65,
+    "previousBalance": 9.65,
+    "estimatedNewBalance": 34.65,
+    "lastChecked": "2025-10-22T15:12:11.071Z",
+    "blockNumber": 61573197,
+    "blockTimeStamp": 1761145860000,
+    "fee": 1732900,
+    "energyUsage": 13869,
+    "energyFee": 1386900,
+    "netFee": 346000
+  },
+  "createdAt": {
+    "$date": "2025-10-22T15:10:59.584Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-22T15:12:11.073Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f8f5c042998d912236e1bb"
+  },
+  "userId": {
+    "$oid": "68f3c580820ee24aae9b8421"
+  },
+  "cardId": {
+    "$oid": "68f75794f7c039f0adfd04bb"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 25.875,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 0.875,
+    "totalFee": 0.875
+  },
+  "finalAmount": 25,
+  "txHash": "bdf5f2f45ee5c3fab855013314fe702420615289ebf4494cf08b6482c47236cb",
+  "fromAddress": "TXVUdcPwK3KdayFHSA8tDVcR73iK3qTMt1",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "metadata": {
+    "san": "91cc0f7620251022170518",
+    "topupAmount": 25,
+    "feeAmount": 0.875,
+    "feePercentage": 3.5,
+    "totalPaid": 25.875,
+    "currency": "USD",
+    "cardBalance": 9.65,
+    "previousBalance": 9.65,
+    "estimatedNewBalance": 34.65,
+    "lastChecked": "2025-10-22T15:19:27.402Z",
+    "blockNumber": 61573345,
+    "blockTimeStamp": 1761146304000,
+    "fee": 1732900,
+    "energyUsage": 13869,
+    "energyFee": 1386900,
+    "netFee": 346000
+  },
+  "createdAt": {
+    "$date": "2025-10-22T15:18:24.314Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-22T15:19:27.404Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f8f85742998d912236e1ce"
+  },
+  "userId": {
+    "$oid": "68f3c580820ee24aae9b8421"
+  },
+  "cardId": {
+    "$oid": "68f75794f7c039f0adfd04bb"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 25.875,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 0.875,
+    "totalFee": 0.875
+  },
+  "finalAmount": 25,
+  "txHash": "e758dda8abba877a02f1b18212192248bfca12e9b057ed477709e00a371949df",
+  "fromAddress": "TXVUdcPwK3KdayFHSA8tDVcR73iK3qTMt1",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "metadata": {
+    "san": "91cc0f7620251022170518",
+    "topupAmount": 25,
+    "feeAmount": 0.875,
+    "feePercentage": 3.5,
+    "totalPaid": 25.875,
+    "currency": "USD",
+    "cardBalance": 9.65,
+    "previousBalance": 9.65,
+    "estimatedNewBalance": 34.65,
+    "lastChecked": "2025-10-22T15:30:30.656Z",
+    "blockNumber": 61573567,
+    "blockTimeStamp": 1761146970000,
+    "fee": 1732900,
+    "energyUsage": 13869,
+    "energyFee": 1386900,
+    "netFee": 346000
+  },
+  "createdAt": {
+    "$date": "2025-10-22T15:29:27.835Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-22T15:30:30.659Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f8fad5b06f383eb18fd872"
+  },
+  "userId": {
+    "$oid": "68f3c580820ee24aae9b8421"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 100,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 2.63,
+    "totalFee": 27.63
+  },
+  "finalAmount": 72.38,
+  "txHash": "0c40573838831dd8facfdcd0eb0c02d8c1b4443cae1340e961015b9c855e44ad",
+  "fromAddress": "TXVUdcPwK3KdayFHSA8tDVcR73iK3qTMt1",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "network": "TRON",
+    "timestamp": "2025-10-22T15:40:03.823Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "createdTimestamp": "2025-10-22T15:40:05.155Z",
+    "lastChecked": "2025-10-22T15:41:07.446Z",
+    "blockNumber": 61573778,
+    "blockTimeStamp": 1761147609000,
+    "fee": 1732900,
+    "energyUsage": 13869,
+    "energyFee": 1386900,
+    "netFee": 346000
+  },
+  "createdAt": {
+    "$date": "2025-10-22T15:40:05.161Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-22T15:41:07.449Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f90a47d69bcbd49e727f08"
+  },
+  "userId": {
+    "$oid": "68f3c580820ee24aae9b8421"
+  },
+  "cardId": {
+    "$oid": "68f75794f7c039f0adfd04bb"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 10.35,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 0.35,
+    "totalFee": 0.35
+  },
+  "finalAmount": 10,
+  "txHash": "a8b04cd5e3673c8d27a099b872790ea17f934f17193b9bd1cc84b97d0c569ed1",
+  "fromAddress": "TXVUdcPwK3KdayFHSA8tDVcR73iK3qTMt1",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "metadata": {
+    "san": "91cc0f7620251022170518",
+    "topupAmount": 10,
+    "feeAmount": 0.35,
+    "feePercentage": 3.5,
+    "totalPaid": 10.35,
+    "currency": "USD",
+    "cardBalance": 9.65,
+    "previousBalance": 9.65,
+    "estimatedNewBalance": 19.65,
+    "lastChecked": "2025-10-22T16:47:25.018Z",
+    "blockNumber": 61575091,
+    "blockTimeStamp": 1761151560000,
+    "fee": 1732900,
+    "energyUsage": 13869,
+    "energyFee": 1386900,
+    "netFee": 346000,
+    "externalTopupSuccess": true,
+    "request_id": "404de2a3-0718-4984-946b-e6610728d781",
+    "topupid": 899385302,
+    "externalTopupResponse": {
+      "request_id": "404de2a3-0718-4984-946b-e6610728d781",
+      "topupid": 899385302
+    },
+    "externalTopupTimestamp": "2025-10-22T16:47:25.932Z"
+  },
+  "createdAt": {
+    "$date": "2025-10-22T16:45:59.357Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-22T16:47:25.933Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f9a04fa6974f2062fb3a80"
+  },
+  "userId": {
+    "$oid": "68f5045a02ca9897f4b446ca"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "9379651197264fcfef2442930b89c7769f2342936b7506b4307bd712b35aaef2",
+  "fromAddress": "TAhhu4VDzFWppBFGpMwM43EgEmijA5JYdR",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "phoneNumber": "+919717453904",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "network": "TRON",
+    "timestamp": "2025-10-23T03:26:03.554Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+91",
+    "createdTimestamp": "2025-10-23T03:26:07.381Z",
+    "lastChecked": "2025-10-23T03:27:09.245Z",
+    "blockNumber": 76843043,
+    "blockTimeStamp": 1761189969000,
+    "fee": 6428500,
+    "energyUsage": 64285,
+    "energyFee": 6428500,
+    "cardDocId": {
+      "$numberLong": "899818603"
+    },
+    "cardRequestId": "4fe68522-54d6-4392-8c42-1306395b2b87",
+    "cardIssuanceStatus": "inprocess"
+  },
+  "createdAt": {
+    "$date": "2025-10-23T03:26:07.391Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-23T03:27:09.246Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "68f9a7f1fab1daaac079acb9"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f9be7386a2efe6afb173ec"
+  },
+  "userId": {
+    "$oid": "68f5045a02ca9897f4b446ca"
+  },
+  "cardId": {
+    "$oid": "68f9a7f1fab1daaac079acb9"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 10.35,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 0.35,
+    "totalFee": 0.35
+  },
+  "finalAmount": 10,
+  "txHash": "ef92421eb6212cf68e1c060812cf2f2becdb41d0ada096d4afc9cd47b787552d",
+  "fromAddress": "TAhhu4VDzFWppBFGpMwM43EgEmijA5JYdR",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "metadata": {
+    "san": "7b8be0c020251023112711",
+    "topupAmount": 10,
+    "feeAmount": 0.35,
+    "feePercentage": 3.5,
+    "totalPaid": 10.35,
+    "currency": "USD",
+    "cardBalance": 24.13,
+    "previousBalance": 24.13,
+    "estimatedNewBalance": 34.129999999999995,
+    "lastChecked": "2025-10-23T05:35:46.738Z",
+    "blockNumber": 76845616,
+    "blockTimeStamp": 1761197688000,
+    "fee": 6428500,
+    "energyUsage": 64285,
+    "energyFee": 6428500,
+    "externalTopupSuccess": true,
+    "request_id": "281fac40-7f63-4715-ac64-4a3cad2fcdc4",
+    "topupid": 899921596,
+    "externalTopupResponse": {
+      "request_id": "281fac40-7f63-4715-ac64-4a3cad2fcdc4",
+      "topupid": 899921596
+    },
+    "externalTopupTimestamp": "2025-10-23T05:35:47.883Z"
+  },
+  "createdAt": {
+    "$date": "2025-10-23T05:34:43.095Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-23T05:35:47.884Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68fb1566f18c8c0516cb4642"
+  },
+  "userId": {
+    "$oid": "68fb13a4e5289b73e1a00655"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "2e7906bd226ad422740cb1917164f5c62bde8a2a36a3c6d579af15919b4eeaed",
+  "fromAddress": "TAhhu4VDzFWppBFGpMwM43EgEmijA5JYdR",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "phoneNumber": "+918700212323",
+  "cardType": "E0W00009_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "network": "TRON",
+    "timestamp": "2025-10-24T05:57:52.585Z",
+    "productCode": "E0W00009",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+91",
+    "createdTimestamp": "2025-10-24T05:57:58.737Z",
+    "lastChecked": "2025-10-24T05:59:00.258Z",
+    "blockNumber": 76874872,
+    "blockTimeStamp": 1761285480000,
+    "fee": 6428500,
+    "energyUsage": 64285,
+    "energyFee": 6428500
+  },
+  "createdAt": {
+    "$date": "2025-10-24T05:57:58.747Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-24T05:59:01.085Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "68fb15a4f18c8c0516cb464e"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fb1611f18c8c0516cb465f"
+  },
+  "userId": {
+    "$oid": "68fb13a4e5289b73e1a00655"
+  },
+  "cardId": {
+    "$oid": "68fb15a4f18c8c0516cb464e"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 10.35,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 0.35,
+    "totalFee": 0.35
+  },
+  "finalAmount": 10,
+  "txHash": "e2adda35a21c1d37d4170e71a1bb9de54254540ef056dbe4611e9e597ea1eeaf",
+  "fromAddress": "TAhhu4VDzFWppBFGpMwM43EgEmijA5JYdR",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "metadata": {
+    "san": "b2808cc120251024135902",
+    "topupAmount": 10,
+    "feeAmount": 0.35,
+    "feePercentage": 3.5,
+    "totalPaid": 10.35,
+    "currency": "USD",
+    "cardBalance": 24.13,
+    "previousBalance": 24.13,
+    "estimatedNewBalance": 34.129999999999995,
+    "lastChecked": "2025-10-24T06:01:51.511Z",
+    "blockNumber": 76874927,
+    "blockTimeStamp": 1761285651000,
+    "fee": 6428500,
+    "energyUsage": 64285,
+    "energyFee": 6428500,
+    "externalTopupSuccess": true,
+    "request_id": "95692603-b240-436f-bc1a-cb64c74608fc",
+    "topupid": 901185199,
+    "externalTopupResponse": {
+      "request_id": "95692603-b240-436f-bc1a-cb64c74608fc",
+      "topupid": 901185199
+    },
+    "externalTopupTimestamp": "2025-10-24T06:01:52.109Z"
+  },
+  "createdAt": {
+    "$date": "2025-10-24T06:00:49.425Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-24T06:01:52.109Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69009bd6fcdda5d0db0321c6"
+  },
+  "userId": {
+    "$oid": "69009b3afcdda5d0db0321b6"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "1a0abb01b073d831836d38205b705c272127ab8e0b3858bc3905931a5bbd06e7",
+  "fromAddress": "TAhhu4VDzFWppBFGpMwM43EgEmijA5JYdR",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "phoneNumber": "+918700212323",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "network": "TRON",
+    "timestamp": "2025-10-28T10:32:51.092Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+91",
+    "createdTimestamp": "2025-10-28T10:32:54.497Z",
+    "lastChecked": "2025-10-28T10:33:59.381Z",
+    "blockNumber": 76995537,
+    "blockTimeStamp": 1761647577000,
+    "fee": 6428500,
+    "energyUsage": 64285,
+    "energyFee": 6428500
+  },
+  "createdAt": {
+    "$date": "2025-10-28T10:32:54.500Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-28T10:34:01.340Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "69009c194834eb64d88fa125"
+  }
+},
+{
+  "_id": {
+    "$oid": "6901d7c38733957ffb89fc14"
+  },
+  "userId": {
+    "$oid": "6900bf63b79d9adbaedb2842"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 100,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 2.63,
+    "totalFee": 27.63
+  },
+  "finalAmount": 72.38,
+  "txHash": "9a733be51609677e4b7b1f8153231e6103a16373aa96ae18dbac67ab95ecde01",
+  "fromAddress": "TVcpqwpvoMoHYJv9EG9eXEqpLdwXcZGj5s",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "network": "TRON",
+    "timestamp": "2025-10-29T09:00:49.155Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-10-29T09:00:51.221Z",
+    "lastChecked": "2025-10-29T09:01:52.443Z",
+    "blockNumber": 77022486,
+    "blockTimeStamp": 1761728451000,
+    "fee": 6428500,
+    "energyUsage": 64285,
+    "energyFee": 6428500
+  },
+  "createdAt": {
+    "$date": "2025-10-29T09:00:51.231Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-29T09:01:53.237Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "6901d8018733957ffb89fc50"
+  }
+},
+{
+  "_id": {
+    "$oid": "6901e2f6822bdaef9fa11eae"
+  },
+  "userId": {
+    "$oid": "6901e086fafdeb774f2b4959"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "979357179355152aeeae8131c6a10c2faf27f94c4a909915e96e5b4b8bf47ee3",
+  "fromAddress": "TVcpqwpvoMoHYJv9EG9eXEqpLdwXcZGj5s",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "cardType": "E0W00009_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "network": "TRON",
+    "timestamp": "2025-10-29T09:47:31.222Z",
+    "productCode": "E0W00009",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-10-29T09:48:38.184Z",
+    "lastChecked": "2025-10-29T09:49:39.563Z",
+    "blockNumber": 77023442,
+    "blockTimeStamp": 1761731319000,
+    "fee": 6774500,
+    "energyUsage": 64285,
+    "energyFee": 6428500,
+    "netFee": 346000
+  },
+  "createdAt": {
+    "$date": "2025-10-29T09:48:38.189Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-29T09:49:40.364Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "6901e334822bdaef9fa11eeb"
+  }
+},
+{
+  "_id": {
+    "$oid": "6901e926822bdaef9fa1224e"
+  },
+  "userId": {
+    "$oid": "6901e1fc822bdaef9fa11d4d"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "49e797bf87965c24fb5a57c901a0e0a6edfcbe121dccee4bba16780b0571f926",
+  "fromAddress": "TVcpqwpvoMoHYJv9EG9eXEqpLdwXcZGj5s",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "network": "TRON",
+    "timestamp": "2025-10-29T10:15:02.066Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-10-29T10:15:02.111Z",
+    "lastChecked": "2025-10-29T10:16:03.268Z",
+    "blockNumber": 77023970,
+    "blockTimeStamp": 1761732903000,
+    "fee": 6774500,
+    "energyUsage": 64285,
+    "energyFee": 6428500,
+    "netFee": 346000
+  },
+  "createdAt": {
+    "$date": "2025-10-29T10:15:02.113Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-29T10:16:03.859Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "6901e963822bdaef9fa1228f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6901ee28fafdeb774f2b4e9e"
+  },
+  "userId": {
+    "$oid": "6901e1fc822bdaef9fa11d4d"
+  },
+  "cardId": {
+    "$oid": "6901e963822bdaef9fa1228f"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 517.5,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 17.5,
+    "totalFee": 17.5
+  },
+  "finalAmount": 500,
+  "txHash": "68c68e380152ec7845240c08cc4f5651c7b0b5cff2d4cf078687444418d9bf0e",
+  "fromAddress": "TVcpqwpvoMoHYJv9EG9eXEqpLdwXcZGj5s",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "metadata": {
+    "san": "73488ba120251029181605",
+    "topupAmount": 500,
+    "feeAmount": 17.5,
+    "feePercentage": 3.5,
+    "totalPaid": 517.5,
+    "currency": "USD",
+    "cardBalance": 24.13,
+    "previousBalance": 24.13,
+    "estimatedNewBalance": 524.13,
+    "lastChecked": "2025-10-29T10:37:27.598Z",
+    "blockNumber": 77024397,
+    "blockTimeStamp": 1761734184000,
+    "fee": 6774500,
+    "energyUsage": 64285,
+    "energyFee": 6428500,
+    "netFee": 346000,
+    "externalTopupSuccess": true,
+    "request_id": "36348d71-75a7-4e4f-bbdf-4f01077b52d0",
+    "topupid": 907265262,
+    "externalTopupResponse": {
+      "request_id": "36348d71-75a7-4e4f-bbdf-4f01077b52d0",
+      "topupid": 907265262
+    },
+    "externalTopupTimestamp": "2025-10-29T10:37:28.178Z"
+  },
+  "createdAt": {
+    "$date": "2025-10-29T10:36:24.119Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-29T10:37:28.179Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6901f164822bdaef9fa12839"
+  },
+  "userId": {
+    "$oid": "68fb13a4e5289b73e1a00655"
+  },
+  "cardId": {
+    "$oid": "68fb15a4f18c8c0516cb464e"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 51.75,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 1.75,
+    "totalFee": 1.75
+  },
+  "finalAmount": 50,
+  "txHash": "325ba3b9aee64806711c9ff0159558102eca7fd1d914d2a22aa4583727dd247d",
+  "fromAddress": "TAhhu4VDzFWppBFGpMwM43EgEmijA5JYdR",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "metadata": {
+    "san": "b2808cc120251024135902",
+    "topupAmount": 50,
+    "feeAmount": 1.75,
+    "feePercentage": 3.5,
+    "totalPaid": 51.75,
+    "currency": "USD",
+    "cardBalance": 24.13,
+    "previousBalance": 24.13,
+    "estimatedNewBalance": 74.13,
+    "lastChecked": "2025-10-29T10:51:15.020Z",
+    "blockNumber": 77024674,
+    "blockTimeStamp": 1761735015000,
+    "fee": 6428500,
+    "energyUsage": 64285,
+    "energyFee": 6428500,
+    "externalTopupSuccess": true,
+    "request_id": "8136aeb5-58bb-4f6e-9f13-5a2648b748d6",
+    "topupid": 907281707,
+    "externalTopupResponse": {
+      "request_id": "8136aeb5-58bb-4f6e-9f13-5a2648b748d6",
+      "topupid": 907281707
+    },
+    "externalTopupTimestamp": "2025-10-29T10:51:15.576Z"
+  },
+  "createdAt": {
+    "$date": "2025-10-29T10:50:12.864Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-29T10:51:15.576Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6901fbd2fc19d2fffe7a0c86"
+  },
+  "userId": {
+    "$oid": "69009b3afcdda5d0db0321b6"
+  },
+  "cardId": {
+    "$oid": "69009c194834eb64d88fa125"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 53.82,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 1.82,
+    "totalFee": 1.82
+  },
+  "finalAmount": 52,
+  "txHash": "702d4160e4d10c2c920a905320dc4dd2df2650b8a658e1a621de48d566508e7a",
+  "fromAddress": "TAhhu4VDzFWppBFGpMwM43EgEmijA5JYdR",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "metadata": {
+    "san": "532f700b20251028183402",
+    "topupAmount": 52,
+    "feeAmount": 1.82,
+    "feePercentage": 3.5,
+    "totalPaid": 53.82,
+    "currency": "USD",
+    "cardBalance": 24.13,
+    "previousBalance": 24.13,
+    "estimatedNewBalance": 76.13,
+    "lastChecked": "2025-10-29T11:35:44.865Z",
+    "blockNumber": 77025564,
+    "blockTimeStamp": 1761737685000,
+    "fee": 6428500,
+    "energyUsage": 64285,
+    "energyFee": 6428500,
+    "externalTopupSuccess": true,
+    "request_id": "0e75fe9e-aedf-4103-9e5a-a88af6d06ec3",
+    "topupid": 907331053,
+    "externalTopupResponse": {
+      "request_id": "0e75fe9e-aedf-4103-9e5a-a88af6d06ec3",
+      "topupid": 907331053
+    },
+    "externalTopupTimestamp": "2025-10-29T11:35:45.458Z"
+  },
+  "createdAt": {
+    "$date": "2025-10-29T11:34:42.840Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-29T11:35:45.460Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690242bf8de17ab4e5a31b8d"
+  },
+  "userId": {
+    "$oid": "6901fbb0fc19d2fffe7a0c50"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "failed",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "a19a6f25e80a22bbb4478dfc539a1d7053f425a2234d9897cb5a46497dae7e23",
+  "fromAddress": "TVcpqwpvoMoHYJv9EG9eXEqpLdwXcZGj5s",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "network": "TRON",
+    "timestamp": "2025-10-29T16:37:18.538Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-10-29T16:37:19.159Z",
+    "lastChecked": "2025-10-29T16:38:20.528Z",
+    "failureReason": "Transaction has status field in receipt",
+    "receiptStatus": "FAILED"
+  },
+  "createdAt": {
+    "$date": "2025-10-29T16:37:19.170Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-29T16:38:20.529Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6902e4468a15178be0b73a62"
+  },
+  "userId": {
+    "$oid": "6902e0429ee7b3771d23a239"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "8c09d0c5619bbb0847ad7f1dd3c53e7a1343c587c66759db631245d67b98ba4e",
+  "fromAddress": "TVcpqwpvoMoHYJv9EG9eXEqpLdwXcZGj5s",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "network": "TRON",
+    "timestamp": "2025-10-30T04:06:30.113Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-10-30T04:06:30.717Z",
+    "lastChecked": "2025-10-30T04:07:31.911Z",
+    "blockNumber": 77045394,
+    "blockTimeStamp": 1761797193000,
+    "fee": 13374500,
+    "energyUsage": 130285,
+    "energyFee": 13028500,
+    "netFee": 346000
+  },
+  "createdAt": {
+    "$date": "2025-10-30T04:06:30.728Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-30T04:07:32.716Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "6902e4848a15178be0b73a9f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902e694f315771c85446a08"
+  },
+  "userId": {
+    "$oid": "6902e0429ee7b3771d23a239"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "23793630da5d4e01c444f0342705a1a84c04e8d9e1b6a9959f2adf0506d0a680",
+  "fromAddress": "TVcpqwpvoMoHYJv9EG9eXEqpLdwXcZGj5s",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "phoneNumber": "+60167979177",
+  "cardType": "E0W00009_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "network": "TRON",
+    "timestamp": "2025-10-30T04:16:19.680Z",
+    "productCode": "E0W00009",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+60",
+    "createdTimestamp": "2025-10-30T04:16:20.385Z",
+    "lastChecked": "2025-10-30T04:17:21.568Z",
+    "blockNumber": 77045590,
+    "blockTimeStamp": 1761797781000,
+    "fee": 6774500,
+    "energyUsage": 64285,
+    "energyFee": 6428500,
+    "netFee": 346000
+  },
+  "createdAt": {
+    "$date": "2025-10-30T04:16:20.395Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-30T04:17:22.325Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "6902e6d2f315771c85446a44"
+  }
+},
+{
+  "_id": {
+    "$oid": "6902ed2eb17918d3e3e73692"
+  },
+  "userId": {
+    "$oid": "6902ea6599f625ec442cc452"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 1000,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 34.13,
+    "totalFee": 59.13
+  },
+  "finalAmount": 940.88,
+  "txHash": "30a40c734abb58a965ddcf11053f6a9df1e211d157a7038c0fcca7e2aa763db8",
+  "fromAddress": "TVcpqwpvoMoHYJv9EG9eXEqpLdwXcZGj5s",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "cardType": "E0W00009_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "network": "TRON",
+    "timestamp": "2025-10-30T04:44:30.102Z",
+    "productCode": "E0W00009",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-10-30T04:44:30.691Z",
+    "lastChecked": "2025-10-30T04:45:31.862Z",
+    "blockNumber": 77046154,
+    "blockTimeStamp": 1761799473000,
+    "fee": 6774500,
+    "energyUsage": 64285,
+    "energyFee": 6428500,
+    "netFee": 346000
+  },
+  "createdAt": {
+    "$date": "2025-10-30T04:44:30.700Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-30T04:45:32.649Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "6902ed6cb17918d3e3e736cb"
+  }
+},
+{
+  "_id": {
+    "$oid": "690465acd7b9026e73b56ee0"
+  },
+  "userId": {
+    "$oid": "6901e1fc822bdaef9fa11d4d"
+  },
+  "cardId": {
+    "$oid": "6901e963822bdaef9fa1228f"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 517.5,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 17.5,
+    "totalFee": 17.5
+  },
+  "finalAmount": 500,
+  "txHash": "976ae9f00fc69580a380781e7a8a10d5ab3e9939c747dcda0ae43896a4129288",
+  "fromAddress": "TYZaDsaNCBrZEBPDaNc93XdD96nF9Zy8Y1",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "metadata": {
+    "san": "73488ba120251029181605",
+    "topupAmount": 500,
+    "feeAmount": 17.5,
+    "feePercentage": 3.5,
+    "totalPaid": 517.5,
+    "currency": "USD",
+    "cardBalance": 24.13,
+    "previousBalance": 24.13,
+    "estimatedNewBalance": 524.13,
+    "lastChecked": "2025-10-31T07:31:54.706Z",
+    "blockNumber": 77078269,
+    "blockTimeStamp": 1761895854000,
+    "fee": 13028500,
+    "energyUsage": 130285,
+    "energyFee": 13028500,
+    "externalTopupSuccess": true,
+    "request_id": "8541e1e4-a663-408f-b984-4b3fd9e0c425",
+    "topupid": 909519591,
+    "externalTopupResponse": {
+      "request_id": "8541e1e4-a663-408f-b984-4b3fd9e0c425",
+      "topupid": 909519591
+    },
+    "externalTopupTimestamp": "2025-10-31T07:31:55.277Z"
+  },
+  "createdAt": {
+    "$date": "2025-10-31T07:30:52.993Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-31T07:31:55.278Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6904663dd7893b12bcc718cf"
+  },
+  "userId": {
+    "$oid": "6901e1fc822bdaef9fa11d4d"
+  },
+  "cardId": {
+    "$oid": "6901e963822bdaef9fa1228f"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 1035,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 35,
+    "totalFee": 35
+  },
+  "finalAmount": 1000,
+  "txHash": "9b7b8da5168e20e65372f82dfd12de392109b5829efb4f3ff1c3676ef1e13b23",
+  "fromAddress": "TYZaDsaNCBrZEBPDaNc93XdD96nF9Zy8Y1",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "metadata": {
+    "san": "73488ba120251029181605",
+    "topupAmount": 1000,
+    "feeAmount": 35,
+    "feePercentage": 3.5,
+    "totalPaid": 1035,
+    "currency": "USD",
+    "cardBalance": 24.13,
+    "previousBalance": 24.13,
+    "estimatedNewBalance": 1024.13,
+    "lastChecked": "2025-10-31T07:34:18.931Z",
+    "blockNumber": 77078317,
+    "blockTimeStamp": 1761895998000,
+    "fee": 6774500,
+    "energyUsage": 64285,
+    "energyFee": 6428500,
+    "netFee": 346000,
+    "externalTopupSuccess": true,
+    "request_id": "ffe238db-fc78-471a-b915-c9e63e23c177",
+    "topupid": 909521857,
+    "externalTopupResponse": {
+      "request_id": "ffe238db-fc78-471a-b915-c9e63e23c177",
+      "topupid": 909521857
+    },
+    "externalTopupTimestamp": "2025-10-31T07:34:19.512Z"
+  },
+  "createdAt": {
+    "$date": "2025-10-31T07:33:17.227Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-31T07:34:19.513Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6906d65ddbd09dfb1f0c134e"
+  },
+  "userId": {
+    "$oid": "68f3c580820ee24aae9b8421"
+  },
+  "cardId": {
+    "$oid": "68f75794f7c039f0adfd04bb"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "failed",
+  "amount": 14.49,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 0.49,
+    "totalFee": 0.49
+  },
+  "finalAmount": 14,
+  "txHash": "595a6c8002311ba4097f768ada383debd533f0b3c9362795e0c40f26672de59e",
+  "fromAddress": "TJsDBYh3hVnuZraZvBrDEDfM8KWvuB6E2B",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "metadata": {
+    "san": "91cc0f7620251022170518",
+    "topupAmount": 14,
+    "feeAmount": 0.49,
+    "feePercentage": 3.5,
+    "totalPaid": 14.49,
+    "currency": "USD",
+    "cardBalance": 9.65,
+    "previousBalance": 9.65,
+    "estimatedNewBalance": 23.65,
+    "lastChecked": "2025-11-02T03:57:50.984Z",
+    "failureReason": "Transaction has status field in receipt",
+    "receiptStatus": "FAILED"
+  },
+  "createdAt": {
+    "$date": "2025-11-02T03:56:13.234Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-02T03:57:50.985Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690842016ba163ddb58e5c88"
+  },
+  "userId": {
+    "$oid": "68f5045a02ca9897f4b446ca"
+  },
+  "cardId": {
+    "$oid": "69074aab7b1e569de433e2b4"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 1015.335,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 34.335,
+    "totalFee": 34.335
+  },
+  "finalAmount": 981,
+  "txHash": "7de4401eaba9b6e580d5ee9acf6919b553379d752cde230ca17a9bbca9d1a0ee",
+  "fromAddress": "TAhhu4VDzFWppBFGpMwM43EgEmijA5JYdR",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "metadata": {
+    "san": "5df1309920251013153705",
+    "topupAmount": 981,
+    "feeAmount": 34.335,
+    "feePercentage": 3.5,
+    "totalPaid": 1015.335,
+    "currency": "USD",
+    "cardBalance": 0,
+    "previousBalance": 0,
+    "estimatedNewBalance": 981,
+    "lastChecked": "2025-11-03T05:48:47.164Z",
+    "blockNumber": 77162583,
+    "blockTimeStamp": 1762148865000,
+    "fee": 13028500,
+    "energyUsage": 130285,
+    "energyFee": 13028500,
+    "externalTopupSuccess": true,
+    "request_id": "0c79d2b3-a0f7-40f0-96bf-8d884b750506",
+    "topupid": 913495156,
+    "externalTopupResponse": {
+      "request_id": "0c79d2b3-a0f7-40f0-96bf-8d884b750506",
+      "topupid": 913495156
+    },
+    "externalTopupTimestamp": "2025-11-03T05:48:47.604Z"
+  },
+  "createdAt": {
+    "$date": "2025-11-03T05:47:45.103Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-03T05:48:47.604Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690c1ee83d968e957962a334"
+  },
+  "userId": {
+    "$oid": "690c04abb47ac0c4650eb6ea"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 100,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 2.63,
+    "totalFee": 27.63
+  },
+  "finalAmount": 72.38,
+  "txHash": "73435860dd6d3d5ac6468e833d2feeda09828cb34ceedf06d49dadf09c813b03",
+  "fromAddress": "TVcpqwpvoMoHYJv9EG9eXEqpLdwXcZGj5s",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "cardType": "E0W00009_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "network": "TRON",
+    "timestamp": "2025-11-06T04:07:03.861Z",
+    "productCode": "E0W00009",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-11-06T04:07:04.510Z",
+    "lastChecked": "2025-11-06T04:08:05.687Z",
+    "blockNumber": 77246946,
+    "blockTimeStamp": 1762402026000,
+    "fee": 13028500,
+    "energyUsage": 130285,
+    "energyFee": 13028500
+  },
+  "createdAt": {
+    "$date": "2025-11-06T04:07:04.519Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-06T04:08:06.491Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "690c1f263d968e957962a38d"
+  }
+},
+{
+  "_id": {
+    "$oid": "69103e1201b0892d3dff6ad9"
+  },
+  "userId": {
+    "$oid": "69103a29afa18b8d3faa1676"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 100,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 2.63,
+    "totalFee": 27.63
+  },
+  "finalAmount": 72.38,
+  "txHash": "0100bd1b8e0d64d149d6a784044ed34fad79cdd11c4261e3286b38fc69d9ae07",
+  "fromAddress": "TVcpqwpvoMoHYJv9EG9eXEqpLdwXcZGj5s",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "network": "TRON",
+    "timestamp": "2025-11-09T07:09:06.409Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-11-09T07:09:06.956Z",
+    "lastChecked": "2025-11-09T07:10:08.180Z",
+    "blockNumber": 77336960,
+    "blockTimeStamp": 1762672149000,
+    "fee": 6428500,
+    "energyUsage": 64285,
+    "energyFee": 6428500
+  },
+  "createdAt": {
+    "$date": "2025-11-09T07:09:06.966Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-09T07:10:08.965Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "69103e5001b0892d3dff6b0e"
+  }
+},
+{
+  "_id": {
+    "$oid": "691043fdafa18b8d3faa17c9"
+  },
+  "userId": {
+    "$oid": "690154eadb83097b8f9dca36"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 100,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 2.63,
+    "totalFee": 27.63
+  },
+  "finalAmount": 72.38,
+  "txHash": "c1a171062d56dfc9df7cd080e87107bd88b66676083d89bdaa7f2888d89ec419",
+  "fromAddress": "TVcpqwpvoMoHYJv9EG9eXEqpLdwXcZGj5s",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "phoneNumber": "+601137841668",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "network": "TRON",
+    "timestamp": "2025-11-09T07:34:21.289Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+60",
+    "createdTimestamp": "2025-11-09T07:34:21.990Z",
+    "lastChecked": "2025-11-09T07:35:23.138Z",
+    "blockNumber": 77337465,
+    "blockTimeStamp": 1762673664000,
+    "fee": 6774500,
+    "energyUsage": 64285,
+    "energyFee": 6428500,
+    "netFee": 346000
+  },
+  "createdAt": {
+    "$date": "2025-11-09T07:34:21.994Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-09T07:35:23.899Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "6910443bafa18b8d3faa17fe"
+  }
+},
+{
+  "_id": {
+    "$oid": "6911c7c53caa196bb137afd1"
+  },
+  "userId": {
+    "$oid": "6900bf63b79d9adbaedb2842"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 100,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 2.63,
+    "totalFee": 27.63
+  },
+  "finalAmount": 72.38,
+  "txHash": "96c419d3c5bc81c1e6b236d7207b0d56b151c83485c76e8679bf2f2c3df568f7",
+  "fromAddress": "TVcpqwpvoMoHYJv9EG9eXEqpLdwXcZGj5s",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "phoneNumber": "+60122031825",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "network": "TRON",
+    "timestamp": "2025-11-10T11:08:52.159Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+60",
+    "createdTimestamp": "2025-11-10T11:08:53.750Z",
+    "lastChecked": "2025-11-10T11:09:55.472Z",
+    "blockNumber": 77370546,
+    "blockTimeStamp": 1762772934000,
+    "fee": 6774500,
+    "energyUsage": 64285,
+    "energyFee": 6428500,
+    "netFee": 346000
+  },
+  "createdAt": {
+    "$date": "2025-11-10T11:08:53.759Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-10T11:09:56.095Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "6911c8033caa196bb137b006"
+  }
+},
+{
+  "_id": {
+    "$oid": "6911e8626a06d88470b67754"
+  },
+  "userId": {
+    "$oid": "6911e78d6a06d88470b6769d"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 100,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 2.63,
+    "totalFee": 27.63
+  },
+  "finalAmount": 72.38,
+  "txHash": "8d6d12b22138dfbf1c90ace3aea7dda71d398fbea0bb5b8226cb4a28fa866362",
+  "fromAddress": "TVcpqwpvoMoHYJv9EG9eXEqpLdwXcZGj5s",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "phoneNumber": "+660945901385",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "network": "TRON",
+    "timestamp": "2025-11-10T13:28:02.125Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+66",
+    "createdTimestamp": "2025-11-10T13:28:02.734Z",
+    "lastChecked": "2025-11-10T13:29:04.306Z",
+    "blockNumber": 77373327,
+    "blockTimeStamp": 1762781283000,
+    "fee": 6774500,
+    "energyUsage": 64285,
+    "energyFee": 6428500,
+    "netFee": 346000
+  },
+  "createdAt": {
+    "$date": "2025-11-10T13:28:02.737Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-10T13:29:04.866Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "6911e8a06a06d88470b6778a"
+  }
+},
+{
+  "_id": {
+    "$oid": "6912caa23614f3f5c714644c"
+  },
+  "userId": {
+    "$oid": "69129f143f4ea01d14365c3e"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "failed",
+  "amount": 100,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 2.63,
+    "totalFee": 27.63
+  },
+  "finalAmount": 72.38,
+  "txHash": "4717cba45bed1eb634817ea90faf03175a85bc5055e39a2af333fc14715ed4cb",
+  "fromAddress": "TVcpqwpvoMoHYJv9EG9eXEqpLdwXcZGj5s",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "phoneNumber": "+660822470286",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "network": "TRON",
+    "timestamp": "2025-11-11T05:33:22.051Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+66",
+    "createdTimestamp": "2025-11-11T05:33:22.698Z",
+    "lastChecked": "2025-11-11T05:34:24.044Z",
+    "failureReason": "Transaction has status field in receipt",
+    "receiptStatus": "FAILED"
+  },
+  "createdAt": {
+    "$date": "2025-11-11T05:33:22.707Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-11T05:34:24.045Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6912cfe1a020e3280bd3e46c"
+  },
+  "userId": {
+    "$oid": "69129f143f4ea01d14365c3e"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 100,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 2.63,
+    "totalFee": 27.63
+  },
+  "finalAmount": 72.38,
+  "txHash": "49129611940a6449305409b54cb22317982e3f752f60f9dee3ce5ca6c775e78b",
+  "fromAddress": "TVcpqwpvoMoHYJv9EG9eXEqpLdwXcZGj5s",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "phoneNumber": "+660822470286",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "network": "TRON",
+    "timestamp": "2025-11-11T05:55:44.956Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+66",
+    "createdTimestamp": "2025-11-11T05:55:45.718Z",
+    "lastChecked": "2025-11-11T05:56:47.737Z",
+    "blockNumber": 77393078,
+    "blockTimeStamp": 1762840548000,
+    "fee": 13374400,
+    "energyUsage": 130285,
+    "energyFee": 13028400,
+    "netFee": 346000
+  },
+  "createdAt": {
+    "$date": "2025-11-11T05:55:45.728Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-11T05:56:48.521Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "6912d020a020e3280bd3e4a1"
+  }
+},
+{
+  "_id": {
+    "$oid": "6913325350f7199a726e1394"
+  },
+  "userId": {
+    "$oid": "69129f143f4ea01d14365c3e"
+  },
+  "cardId": {
+    "$oid": "6912d020a020e3280bd3e4a1"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 414,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 14,
+    "totalFee": 14
+  },
+  "finalAmount": 400,
+  "txHash": "e397d59d4c377b56312e27c55f2a8dbe511886efe802d7c1fc5a520ab2d85473",
+  "fromAddress": "TVcpqwpvoMoHYJv9EG9eXEqpLdwXcZGj5s",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "metadata": {
+    "san": "0a7dbe1920251111135649",
+    "topupAmount": 400,
+    "feeAmount": 14,
+    "feePercentage": 3.5,
+    "totalPaid": 414,
+    "currency": "USD",
+    "cardBalance": 72.38,
+    "previousBalance": 72.38,
+    "estimatedNewBalance": 472.38,
+    "lastChecked": "2025-11-11T12:56:50.076Z",
+    "blockNumber": 77401474,
+    "blockTimeStamp": 1762865748000,
+    "fee": 6428500,
+    "energyUsage": 64285,
+    "energyFee": 6428500,
+    "externalTopupSuccess": true,
+    "request_id": "36d5595e-d527-45b1-b9a1-0786853d2b98",
+    "topupid": 925788272,
+    "externalTopupResponse": {
+      "request_id": "36d5595e-d527-45b1-b9a1-0786853d2b98",
+      "topupid": 925788272
+    },
+    "externalTopupTimestamp": "2025-11-11T12:56:50.643Z"
+  },
+  "createdAt": {
+    "$date": "2025-11-11T12:55:47.826Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-11T12:56:50.644Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69145a1d81091ac97ee27be0"
+  },
+  "userId": {
+    "$oid": "68f3c580820ee24aae9b8421"
+  },
+  "cardId": {
+    "$oid": "68f75794f7c039f0adfd04bb"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 30.015,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 1.015,
+    "totalFee": 1.015
+  },
+  "finalAmount": 29,
+  "txHash": "0x29ad441ca0d0b55796be18f9e41180555d746ce77ce39fab69b72bd9c1334625",
+  "fromAddress": "0xA3c268689bCfb8D9eA386ca97a82F11300A14985",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "network": "BSC",
+  "metadata": {
+    "san": "91cc0f7620251022170518",
+    "topupAmount": 29,
+    "feeAmount": 1.015,
+    "feePercentage": 3.5,
+    "totalPaid": 30.015,
+    "currency": "USD",
+    "cardBalance": 9.65,
+    "previousBalance": 9.65,
+    "estimatedNewBalance": 38.65,
+    "lastChecked": "2025-11-12T09:58:50.201Z",
+    "blockNumber": {
+      "$numberLong": "67920598"
+    },
+    "fee": {
+      "$numberLong": "51615"
+    },
+    "externalTopupSuccess": true,
+    "request_id": "306b3e0e-1a63-4b9e-a061-e28135dda0d3",
+    "topupid": 926908556,
+    "externalTopupResponse": {
+      "request_id": "306b3e0e-1a63-4b9e-a061-e28135dda0d3",
+      "topupid": 926908556
+    },
+    "externalTopupTimestamp": "2025-11-12T09:58:50.629Z"
+  },
+  "createdAt": {
+    "$date": "2025-11-12T09:57:49.502Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-12T09:58:50.630Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6916d87df853978178c890ed"
+  },
+  "userId": {
+    "$oid": "69141039b635cf5bddc88646"
+  },
+  "cardId": {
+    "$oid": "69144b86d03a2dc762075a74"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 103.5,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 3.5,
+    "totalFee": 3.5
+  },
+  "finalAmount": 100,
+  "txHash": "98afe6be90282fedf8754ec65e7eddcaddd4b499e32c550c4b911af0b4ff816a",
+  "fromAddress": "THBXf4xAzRqPgT7Xit2imCo2rSqUyuBe5c",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "metadata": {
+    "san": "ff87816020251015125832",
+    "topupAmount": 100,
+    "feeAmount": 3.5,
+    "feePercentage": 3.5,
+    "totalPaid": 103.5,
+    "currency": "USD",
+    "cardBalance": 0,
+    "previousBalance": 0,
+    "estimatedNewBalance": 100,
+    "lastChecked": "2025-11-14T07:22:35.571Z",
+    "blockNumber": 77481166,
+    "blockTimeStamp": 1763104893000,
+    "fee": 13028500,
+    "energyUsage": 130285,
+    "energyFee": 13028500,
+    "externalTopupSuccess": true,
+    "request_id": "580e77fa-0aff-4c7d-b9aa-2a68a2ce9997",
+    "topupid": 929486549,
+    "externalTopupResponse": {
+      "request_id": "580e77fa-0aff-4c7d-b9aa-2a68a2ce9997",
+      "topupid": 929486549
+    },
+    "externalTopupTimestamp": "2025-11-14T07:22:36.164Z"
+  },
+  "createdAt": {
+    "$date": "2025-11-14T07:21:33.256Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-14T07:22:36.165Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691aa899bca50dd4fe824f09"
+  },
+  "userId": {
+    "$oid": "691aa7ca68eba0e4e2e3a7c1"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 100,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 2.63,
+    "totalFee": 27.63
+  },
+  "finalAmount": 72.38,
+  "txHash": "d74fb0206a1c8d77ae1d9efd36f61a376395d5d85301437d676f202937f34976",
+  "fromAddress": "TVcpqwpvoMoHYJv9EG9eXEqpLdwXcZGj5s",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "network": "TRON",
+    "timestamp": "2025-11-17T04:46:16.786Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-11-17T04:46:17.328Z",
+    "lastChecked": "2025-11-17T04:47:18.587Z",
+    "blockNumber": 77564439,
+    "blockTimeStamp": 1763354778000,
+    "fee": 13028500,
+    "energyUsage": 130285,
+    "energyFee": 13028500
+  },
+  "createdAt": {
+    "$date": "2025-11-17T04:46:17.332Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-17T04:47:19.403Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "691aa8d7bca50dd4fe824f3e"
+  }
+},
+{
+  "_id": {
+    "$oid": "691aabf09b0c55a87a5bb9a0"
+  },
+  "userId": {
+    "$oid": "691aabb0a79ae8896265f354"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 100,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 2.63,
+    "totalFee": 27.63
+  },
+  "finalAmount": 72.38,
+  "txHash": "a8acc3df7f6f260aa4946bbc45662c01d65b9c56bc24bec3c675fedc65dcb7c6",
+  "fromAddress": "TVcpqwpvoMoHYJv9EG9eXEqpLdwXcZGj5s",
+  "toAddress": "TP6SXnZyGFaeFN2kgG2Gayer599SfduUfA",
+  "network": "TRON",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "network": "TRON",
+    "timestamp": "2025-11-17T05:00:31.584Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-11-17T05:00:32.120Z",
+    "lastChecked": "2025-11-17T05:01:33.429Z",
+    "blockNumber": 77564724,
+    "blockTimeStamp": 1763355633000,
+    "fee": 13374500,
+    "energyUsage": 130285,
+    "energyFee": 13028500,
+    "netFee": 346000
+  },
+  "createdAt": {
+    "$date": "2025-11-17T05:00:32.129Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-17T05:01:34.216Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "691aac2e9b0c55a87a5bb9ea"
+  }
+},
+{
+  "_id": {
+    "$oid": "691add8c0409566eb5109bcb"
+  },
+  "userId": {
+    "$oid": "691adaa28df6e25de5afba61"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 49.99,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0,
+    "totalFee": 0
+  },
+  "finalAmount": 0,
+  "txHash": "0x5ee299cf72d93c4805ba52c3609878365f29839b47f94e08e26fce85a42672f9",
+  "fromAddress": "0xDB35B8a2422cc278c62d247717b8D08a5dd0A990",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "Binance Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2025-11-17T08:32:11.459Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": false,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-11-17T08:32:12.172Z",
+    "lastChecked": "2025-11-17T08:32:43.232Z",
+    "blockNumber": {
+      "$numberLong": "68489636"
+    },
+    "fee": {
+      "$numberLong": "29715"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-11-17T08:32:12.183Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-17T08:32:43.959Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "691addab0409566eb5109bd0"
+  }
+},
+{
+  "_id": {
+    "$oid": "691bd660c6cfbd687c70c96a"
+  },
+  "userId": {
+    "$oid": "691adaa28df6e25de5afba61"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 49,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.84,
+    "totalFee": 25.84
+  },
+  "finalAmount": 23.16,
+  "txHash": "0x5febfdb574c57821e38edcbf9709f35d1262c103934f9efe8c1ac49687f15b3a",
+  "fromAddress": "0xDB35B8a2422cc278c62d247717b8D08a5dd0A990",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "Binance Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2025-11-18T02:13:51.953Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-11-18T02:13:52.750Z",
+    "lastChecked": "2025-11-18T02:14:23.805Z",
+    "blockNumber": {
+      "$numberLong": "68574563"
+    },
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-11-18T02:13:52.760Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-18T02:14:24.665Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "691bd680c6cfbd687c70c96f"
+  }
+},
+{
+  "_id": {
+    "$oid": "691be5325f6b7dfc6c197a4a"
+  },
+  "userId": {
+    "$oid": "68f5045a02ca9897f4b446ca"
+  },
+  "cardId": {
+    "$oid": "68f9a7f1fab1daaac079acb9"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 159.39,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 5.39,
+    "totalFee": 5.39
+  },
+  "finalAmount": 154,
+  "txHash": "0xcde5fd991fc28398b5301092a31dc04dfa21e121bb79695aabc5a3bb6cbde2d4",
+  "fromAddress": "0x4c9F8e8bFa6AAcC96e2bDaDB2854F491027A46C3",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BSC",
+  "metadata": {
+    "san": "7b8be0c020251023112711",
+    "topupAmount": 154,
+    "feeAmount": 5.39,
+    "feePercentage": 3.5,
+    "totalPaid": 159.39,
+    "currency": "USD",
+    "cardBalance": 24.13,
+    "previousBalance": 24.13,
+    "estimatedNewBalance": 178.13,
+    "lastChecked": "2025-11-18T03:18:08.436Z",
+    "blockNumber": {
+      "$numberLong": "68579620"
+    },
+    "fee": {
+      "$numberLong": "34515"
+    },
+    "externalTopupSuccess": true,
+    "request_id": "4eb5734d-a661-4af9-a792-336e95e61f55",
+    "topupid": 933462664,
+    "externalTopupResponse": {
+      "request_id": "4eb5734d-a661-4af9-a792-336e95e61f55",
+      "topupid": 933462664
+    },
+    "externalTopupTimestamp": "2025-11-18T03:18:09.011Z"
+  },
+  "createdAt": {
+    "$date": "2025-11-18T03:17:06.487Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-18T03:18:09.012Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691d4b0d374ee7a9763f941a"
+  },
+  "userId": {
+    "$oid": "68f5045a02ca9897f4b446ca"
+  },
+  "cardId": {
+    "$oid": "68f9a7f1fab1daaac079acb9"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 93.56400000000001,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 3.164,
+    "totalFee": 3.164
+  },
+  "finalAmount": 90.4,
+  "txHash": "0x3b7e924f2f5f6292129bc7ef2aeebc6ad9bc421ee2c65773b2f3bb03699038c5",
+  "fromAddress": "0x4c9F8e8bFa6AAcC96e2bDaDB2854F491027A46C3",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BSC",
+  "metadata": {
+    "san": "7b8be0c020251023112711",
+    "topupAmount": 90.4,
+    "feeAmount": 3.164,
+    "feePercentage": 3.5,
+    "totalPaid": 93.56400000000001,
+    "currency": "USD",
+    "cardBalance": 24.13,
+    "previousBalance": 24.13,
+    "estimatedNewBalance": 114.53,
+    "lastChecked": "2025-11-19T04:45:21.923Z",
+    "blockNumber": {
+      "$numberLong": "68701748"
+    },
+    "fee": {
+      "$numberLong": "34515"
+    },
+    "externalTopupSuccess": true,
+    "request_id": "517ce9eb-a9de-49a0-84bb-e92060ae3473",
+    "topupid": 934275641,
+    "externalTopupResponse": {
+      "request_id": "517ce9eb-a9de-49a0-84bb-e92060ae3473",
+      "topupid": 934275641
+    },
+    "externalTopupTimestamp": "2025-11-19T04:45:22.534Z"
+  },
+  "createdAt": {
+    "$date": "2025-11-19T04:43:57.702Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-19T04:45:22.535Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692005b36322303c2b2b350c"
+  },
+  "userId": {
+    "$oid": "6902ea6599f625ec442cc452"
+  },
+  "cardId": {
+    "$oid": "6902ed6cb17918d3e3e736cb"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 517.5,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 17.5,
+    "totalFee": 17.5
+  },
+  "finalAmount": 500,
+  "txHash": "0xd4bd97d7722df84b1400bbbd8327fa19706a7c259dc99553efc4c7a0ab43e867",
+  "fromAddress": "0x103E4bCe5485013E7078226A14238C01cfA6B4d5",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BSC",
+  "metadata": {
+    "san": "2fdef07320251030124833",
+    "topupAmount": 500,
+    "feeAmount": 17.5,
+    "feePercentage": 3.5,
+    "totalPaid": 517.5,
+    "currency": "USD",
+    "cardBalance": 940.88,
+    "previousBalance": 940.88,
+    "estimatedNewBalance": 1440.88,
+    "lastChecked": "2025-11-21T06:25:56.532Z",
+    "blockNumber": {
+      "$numberLong": "68939965"
+    },
+    "fee": {
+      "$numberLong": "34515"
+    },
+    "externalTopupSuccess": true,
+    "request_id": "dcbf7356-c610-46c3-a5e4-638f6b31743e",
+    "topupid": 935740082,
+    "externalTopupResponse": {
+      "request_id": "dcbf7356-c610-46c3-a5e4-638f6b31743e",
+      "topupid": 935740082
+    },
+    "externalTopupTimestamp": "2025-11-21T06:25:58.280Z"
+  },
+  "createdAt": {
+    "$date": "2025-11-21T06:24:51.694Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T06:25:58.281Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6920077a68ac61382760fbd8"
+  },
+  "userId": {
+    "$oid": "6902ea6599f625ec442cc452"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 482.5,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 16.01,
+    "totalFee": 41.01
+  },
+  "finalAmount": 441.49,
+  "txHash": "0x1775e42e6082bfe558a9f9f6928f0c47b5bcaf55161b49be9a3fee3a2308cf93",
+  "fromAddress": "0x103E4bCe5485013E7078226A14238C01cfA6B4d5",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "Binance Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2025-11-21T06:32:26.425Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-11-21T06:32:26.544Z",
+    "lastChecked": "2025-11-21T06:32:57.787Z",
+    "blockNumber": {
+      "$numberLong": "68940572"
+    },
+    "fee": {
+      "$numberLong": "29715"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-11-21T06:32:26.546Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T06:32:58.566Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "6920079a68ac61382760fbdd"
+  }
+},
+{
+  "_id": {
+    "$oid": "6926bf53fb9f050c578722bc"
+  },
+  "userId": {
+    "$oid": "6926b9efb7c3e4299225d285"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "0x911d6ca726920b8ee16248d1bc0b21f18c54684153c9d59d86a4babd88390d08",
+  "fromAddress": "0xFfbf934BBF5c2e935160220B5a7fcba9b91e593A",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "Binance Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2025-11-26T08:50:27.153Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-11-26T08:50:27.553Z",
+    "lastChecked": "2025-11-26T08:50:58.033Z",
+    "blockNumber": {
+      "$numberLong": "69527415"
+    },
+    "fee": {
+      "$numberLong": "29715"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-11-26T08:50:27.573Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T08:50:58.538Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "6926bf72fb9f050c578722c8"
+  }
+},
+{
+  "_id": {
+    "$oid": "6926bf53fb9f050c578722c0"
+  },
+  "userId": {
+    "$oid": "6926b8c1b7c3e4299225d265"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "0xc9104e324b568f5c542eea243ec6148d88947481819fca92368730826b4426e9",
+  "fromAddress": "0x6b12Ef4459ac7Ab7F99aC0F970De2Ea2757ff01a",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "Binance Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2025-11-26T08:50:27.407Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-11-26T08:50:27.727Z",
+    "lastChecked": "2025-11-26T08:50:58.160Z",
+    "blockNumber": {
+      "$numberLong": "69527415"
+    },
+    "fee": {
+      "$numberLong": "29715"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-11-26T08:50:27.730Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T08:50:58.552Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "6926bf72fb9f050c578722ca"
+  }
+},
+{
+  "_id": {
+    "$oid": "6927fcbc262e7f79303b6daf"
+  },
+  "userId": {
+    "$oid": "690c04abb47ac0c4650eb6ea"
+  },
+  "cardId": {
+    "$oid": "690c1f263d968e957962a38d"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 51.75,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 1.75,
+    "totalFee": 1.75
+  },
+  "finalAmount": 50,
+  "txHash": "0x519ac261ddcca33d1be6a6e2044569a02a9b14e835bee7dd39de90290b08991d",
+  "fromAddress": "0x712d6f615A6C4D2a5F98D718973f18EebCcE278E",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BSC",
+  "metadata": {
+    "san": "39e4317720251106120808",
+    "topupAmount": 50,
+    "feeAmount": 1.75,
+    "feePercentage": 3.5,
+    "totalPaid": 51.75,
+    "currency": "USD",
+    "cardBalance": 72.38,
+    "previousBalance": 72.38,
+    "estimatedNewBalance": 122.38,
+    "lastChecked": "2025-11-27T07:25:46.022Z",
+    "blockNumber": {
+      "$numberLong": "69635747"
+    },
+    "fee": {
+      "$numberLong": "34515"
+    },
+    "feeApiResponse": {
+      "success": true,
+      "message": "Updated topup fee (+1.75) successfully",
+      "data": {
+        "totalTopupfee": 1.75,
+        "totalCardIssuancefee": 0,
+        "amountsAdded": {
+          "topupFee": 1.75
+        },
+        "updatedAt": "2025-11-27T07:25:46.534Z"
+      }
+    },
+    "feeRecordedAt": "2025-11-27T07:25:46.626Z",
+    "externalTopupSuccess": true,
+    "request_id": "4961a8c3-19b6-41a5-9eff-b2c34c482256",
+    "topupid": 939870571,
+    "externalTopupResponse": {
+      "request_id": "4961a8c3-19b6-41a5-9eff-b2c34c482256",
+      "topupid": 939870571
+    },
+    "externalTopupTimestamp": "2025-11-27T07:25:46.690Z"
+  },
+  "createdAt": {
+    "$date": "2025-11-27T07:24:44.755Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-27T07:25:46.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692d137885891d1268898313"
+  },
+  "userId": {
+    "$oid": "6911b8f16811870c87bf58a7"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "0x13b223220264437c558dc88b81960dc36d5e1f054ec06e826b3a4451b84845bb",
+  "fromAddress": "0x889dCCf88a60aeDF5f734e1254390b7AA44b7F2d",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "Binance Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2025-12-01T04:03:04.125Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-12-01T04:03:04.290Z",
+    "lastChecked": "2025-12-01T04:03:34.795Z",
+    "blockNumber": {
+      "$numberLong": "70080379"
+    },
+    "fee": {
+      "$numberLong": "29715"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-12-01T04:03:04.296Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-01T04:03:35.603Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "692d139785891d1268898318"
+  }
+},
+{
+  "_id": {
+    "$oid": "692e64c785891d1268898d66"
+  },
+  "userId": {
+    "$oid": "692e62ff85891d1268898ccf"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "0x653d85b61f6a6dd335b478a2daf438974374cbd6bf6c293cbb39cb71930123df",
+  "fromAddress": "0xcCa1234Fd3B3bAb9750f4DF3b325C4918D0CbcA5",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "Binance Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2025-12-02T04:02:15.597Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-12-02T04:02:15.807Z",
+    "lastChecked": "2025-12-02T04:02:46.363Z",
+    "blockNumber": {
+      "$numberLong": "70195502"
+    },
+    "fee": {
+      "$numberLong": "29715"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-12-02T04:02:15.810Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:46.747Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "692e64e685891d1268898d98"
+  }
+},
+{
+  "_id": {
+    "$oid": "692e65f485891d1268898e13"
+  },
+  "userId": {
+    "$oid": "692e636785891d1268898ce5"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "0x7ec65d68d66667da2371fdb86cc3fdca05e22b27676f3802da154cf5a9d0b214",
+  "fromAddress": "0x67F0eCa3AFFdaa54E6c889fB37aa943a917B57a4",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "Binance Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2025-12-02T04:07:16.720Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-12-02T04:07:16.943Z",
+    "lastChecked": "2025-12-02T04:08:38.631Z",
+    "blockNumber": {
+      "$numberLong": "70195904"
+    },
+    "fee": {
+      "$numberLong": "29715"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-12-02T04:07:16.946Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:08:39.031Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "692e664685891d1268898e39"
+  }
+},
+{
+  "_id": {
+    "$oid": "692e663385891d1268898e34"
+  },
+  "userId": {
+    "$oid": "692e645185891d1268898d3d"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "0x165e38d5e367de7a365b5dcefe7317735d2afdbaeae2ef757558ed9adb5b65bb",
+  "fromAddress": "0xA287c629a416333a56cb01b4EE531e2f68881068",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "Binance Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2025-12-02T04:08:19.133Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-12-02T04:08:19.315Z",
+    "lastChecked": "2025-12-02T04:08:49.729Z",
+    "blockNumber": {
+      "$numberLong": "70195987"
+    },
+    "fee": {
+      "$numberLong": "29715"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-12-02T04:08:19.317Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:08:50.136Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "692e665285891d1268898e45"
+  }
+},
+{
+  "_id": {
+    "$oid": "692e7c7c85891d1268899069"
+  },
+  "userId": {
+    "$oid": "692e7a5485891d1268898f8a"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "0xb1c598053fdda82cf4530559535c0894ac415ae45c940aeaa07bab12ca4c7246",
+  "fromAddress": "0xF2A1549e07E7D675B4Fe40e423D4956811208713",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "Binance Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2025-12-02T05:43:24.310Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-12-02T05:43:24.458Z",
+    "lastChecked": "2025-12-02T05:43:54.783Z",
+    "blockNumber": {
+      "$numberLong": "70203589"
+    },
+    "fee": {
+      "$numberLong": "29715"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-12-02T05:43:24.461Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T05:43:55.208Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "692e7c9b85891d126889907a"
+  }
+},
+{
+  "_id": {
+    "$oid": "692e825c85891d1268899263"
+  },
+  "userId": {
+    "$oid": "692e7ea685891d1268899185"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "0x9b1b105f818dca9573bc715d213a8f3a4e1ed161730673c90ff345595d24c8a9",
+  "fromAddress": "0x09e11e32e89850339109a28c348A22ebFC704D65",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 1,
+  "network": "Ethereum Mainnet",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2025-12-02T06:08:27.983Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-12-02T06:08:28.385Z",
+    "lastChecked": "2025-12-02T06:08:58.943Z",
+    "blockNumber": {
+      "$numberLong": "23923897"
+    },
+    "fee": {
+      "$numberLong": "63209"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-12-02T06:08:28.387Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T06:08:59.334Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "692e827b85891d1268899268"
+  }
+},
+{
+  "_id": {
+    "$oid": "692e874f85891d1268899313"
+  },
+  "userId": {
+    "$oid": "692e7aa585891d1268898fce"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "0x48d90c3b57521dce4ccd399f46843778a2ac94b7920225501c04328dba8a5b3f",
+  "fromAddress": "0x239244F7c3fAEC02aF7e40ea6479CD365AC26d17",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "Binance Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2025-12-02T06:29:34.787Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-12-02T06:29:35.180Z",
+    "lastChecked": "2025-12-02T06:30:05.752Z",
+    "blockNumber": {
+      "$numberLong": "70207284"
+    },
+    "fee": {
+      "$numberLong": "29715"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-12-02T06:29:35.182Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T06:30:06.211Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "692e876e85891d1268899318"
+  }
+},
+{
+  "_id": {
+    "$oid": "692e9b1785891d1268899514"
+  },
+  "userId": {
+    "$oid": "692e97dc85891d1268899400"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 100,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 2.63,
+    "totalFee": 27.63
+  },
+  "finalAmount": 72.38,
+  "txHash": "0x0e7ae663f4e616e4fdc400b80185dee85debf9c35aa30de12161fc0b0835956b",
+  "fromAddress": "0x4EFA7D95207f5892305aCaF542A235cd9018541a",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "Binance Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2025-12-02T07:53:59.489Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-12-02T07:53:59.660Z",
+    "lastChecked": "2025-12-02T07:54:29.988Z",
+    "blockNumber": {
+      "$numberLong": "70214036"
+    },
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-12-02T07:53:59.662Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T07:54:30.383Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "692e9b3685891d1268899519"
+  }
+},
+{
+  "_id": {
+    "$oid": "692ecb0bd338d5c37a1a458b"
+  },
+  "userId": {
+    "$oid": "68f5045a02ca9897f4b446ca"
+  },
+  "cardId": {
+    "$oid": "69074aab7b1e569de433e2b4"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 10.35,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 0.35,
+    "totalFee": 0.35
+  },
+  "finalAmount": 10,
+  "txHash": "0xcd89b3820c6dac2af6909a31a76da9ee9956937c2a782f615ea72594e1378103",
+  "fromAddress": "0xA3c268689bCfb8D9eA386ca97a82F11300A14985",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BSC",
+  "metadata": {
+    "san": "5df1309920251013153705",
+    "topupAmount": 10,
+    "feeAmount": 0.35,
+    "feePercentage": 3.5,
+    "totalPaid": 10.35,
+    "currency": "USD",
+    "cardBalance": 0,
+    "previousBalance": 0,
+    "estimatedNewBalance": 10,
+    "lastChecked": "2025-12-02T11:19:36.579Z",
+    "blockNumber": {
+      "$numberLong": "70230400"
+    },
+    "fee": {
+      "$numberLong": "34503"
+    },
+    "feeApiResponse": {
+      "success": true,
+      "message": "Updated topup fee (+0.35) successfully",
+      "data": {
+        "totalTopupfee": 10.889999999999999,
+        "totalCardIssuancefee": 200,
+        "amountsAdded": {
+          "topupFee": 0.35
+        },
+        "updatedAt": "2025-12-02T11:19:37.045Z"
+      }
+    },
+    "feeRecordedAt": "2025-12-02T11:19:37.318Z",
+    "externalTopupSuccess": true,
+    "request_id": "54b9b22d-8dc9-41d7-a55e-ec4c80e2557f",
+    "topupid": 944026074,
+    "externalTopupResponse": {
+      "request_id": "54b9b22d-8dc9-41d7-a55e-ec4c80e2557f",
+      "topupid": 944026074
+    },
+    "externalTopupTimestamp": "2025-12-02T11:19:37.384Z"
+  },
+  "createdAt": {
+    "$date": "2025-12-02T11:18:35.388Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T11:19:37.386Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69311f9e75a18af0c10fe56d"
+  },
+  "userId": {
+    "$oid": "6927b9de279f383ca99e1fcf"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "0x61bb98224f7bf4867c80ed809178d087c29904074f47b87a5bd6eab6512e0177",
+  "fromAddress": "0xa8eF6da8441acaA136AB1ea1c53361aa8A09Ab09",
+  "toAddress": "0xB3Ad8580529B06d2Ed81d6aD348d8BaDf561Dd43",
+  "chainId": 7862,
+  "network": "Maal Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2025-12-04T05:43:58.675Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-12-04T05:43:58.853Z",
+    "lastChecked": "2025-12-04T05:44:19.518Z",
+    "blockNumber": {
+      "$numberLong": "7965631"
+    },
+    "fee": {
+      "$numberLong": "21000"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-12-04T05:43:58.872Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T05:44:20.697Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "69311fb475a18af0c10fe572"
+  }
+},
+{
+  "_id": {
+    "$oid": "693125a36f0f7f7b11e7e190"
+  },
+  "userId": {
+    "$oid": "68f5045a02ca9897f4b446ca"
+  },
+  "cardId": {
+    "$oid": "69074aab7b1e569de433e2b4"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 10.35,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 0.35,
+    "totalFee": 0.35
+  },
+  "finalAmount": 10,
+  "txHash": "0x66135f5a9a9c5fe1b6535884ebbe5f0887662dda8f7c1d2b74a14f1bb4160e6c",
+  "fromAddress": "0xa8eF6da8441acaA136AB1ea1c53361aa8A09Ab09",
+  "toAddress": "0xB3Ad8580529B06d2Ed81d6aD348d8BaDf561Dd43",
+  "chainId": 7862,
+  "network": "Maal Chain",
+  "metadata": {
+    "san": "5df1309920251013153705",
+    "topupAmount": 10,
+    "feeAmount": 0.35,
+    "feePercentage": 3.5,
+    "totalPaid": 10.35,
+    "currency": "USD",
+    "cardBalance": 0,
+    "previousBalance": 0,
+    "estimatedNewBalance": 10,
+    "lastChecked": "2025-12-04T06:09:59.913Z",
+    "blockNumber": {
+      "$numberLong": "7965931"
+    },
+    "fee": {
+      "$numberLong": "21000"
+    },
+    "feeApiResponse": {
+      "success": true,
+      "message": "Updated topup fee (+0.35) successfully",
+      "data": {
+        "totalTopupfee": 12.12,
+        "totalCardIssuancefee": 225,
+        "amountsAdded": {
+          "topupFee": 0.35
+        },
+        "updatedAt": "2025-12-04T06:10:00.381Z"
+      }
+    },
+    "feeRecordedAt": "2025-12-04T06:10:00.661Z",
+    "externalTopupSuccess": true,
+    "request_id": "a4d7e259-b078-4615-966c-0ff2f7bcf79f",
+    "topupid": 945519159,
+    "externalTopupResponse": {
+      "request_id": "a4d7e259-b078-4615-966c-0ff2f7bcf79f",
+      "topupid": 945519159
+    },
+    "externalTopupTimestamp": "2025-12-04T06:10:00.726Z"
+  },
+  "createdAt": {
+    "$date": "2025-12-04T06:09:39.171Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T06:10:00.727Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693136aec8e47ac0df7adbe7"
+  },
+  "userId": {
+    "$oid": "69313534c8e47ac0df7adb5f"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "0x8d3f7c1cb55ad0ae0b19d5d0339b619f72fcb95dd1481198f2906e876f79ce20",
+  "fromAddress": "0xa0be778b61944c3354883011762bc0f7b94d1753",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2025-12-04T07:22:21.942Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-12-04T07:22:22.186Z",
+    "lastChecked": "2025-12-04T07:25:12.467Z",
+    "blockNumber": {
+      "$numberLong": "70441846"
+    },
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-12-04T07:22:22.193Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T07:25:12.469Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "693136c3c8e47ac0df7adbf5"
+  }
+},
+{
+  "_id": {
+    "$oid": "69313722c8e47ac0df7adbfe"
+  },
+  "userId": {
+    "$oid": "69313502c8e47ac0df7adb44"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "0xe3734ac68d244bdd1acb56e0018de2a13c314b64737acd60ecbf321e47e930fc",
+  "fromAddress": "0xa0be778b61944c3354883011762bc0f7b94d1753",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2025-12-04T07:24:16.977Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-12-04T07:24:18.005Z",
+    "lastChecked": "2025-12-04T07:25:46.351Z",
+    "blockNumber": {
+      "$numberLong": "70442000"
+    },
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-12-04T07:24:18.007Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T07:25:46.352Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "69313737c8e47ac0df7adc09"
+  }
+},
+{
+  "_id": {
+    "$oid": "69313802c8e47ac0df7adc59"
+  },
+  "userId": {
+    "$oid": "6931358dc8e47ac0df7adb72"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "0xfe1f75d731aef214b2a49eb36198ec081144eaedb9a455f65dcf4f94c03ffcf2",
+  "fromAddress": "0xa0be778b61944c3354883011762bc0f7b94d1753",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2025-12-04T07:27:43.359Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-12-04T07:28:02.197Z",
+    "lastChecked": "2025-12-04T07:29:05.356Z",
+    "blockNumber": {
+      "$numberLong": "70442274"
+    },
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-12-04T07:28:02.201Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T07:29:05.358Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "6931382bc8e47ac0df7adc60"
+  }
+},
+{
+  "_id": {
+    "$oid": "69313abcc8e47ac0df7add28"
+  },
+  "userId": {
+    "$oid": "69313a46c8e47ac0df7add0a"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "0xb542400cd5966c78f3067dcda60e5eba903f4d8f9e3d16edc217081e367d3552",
+  "fromAddress": "0xa0be778b61944c3354883011762bc0f7b94d1753",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2025-12-04T07:39:40.148Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-12-04T07:39:40.348Z",
+    "lastChecked": "2025-12-04T07:40:00.689Z",
+    "blockNumber": {
+      "$numberLong": "70443230"
+    },
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-12-04T07:39:40.351Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T07:40:01.475Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "69313ad1c8e47ac0df7add2d"
+  }
+},
+{
+  "_id": {
+    "$oid": "6936a2e4a0a35a0f7eda7d6a"
+  },
+  "userId": {
+    "$oid": "6936a1a0a0a35a0f7eda7d3f"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 500,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 16.63,
+    "totalFee": 41.63
+  },
+  "finalAmount": 458.38,
+  "txHash": "0x244395d052bfcbec69571ef802b0bf5fe4c30b47c6c524d2a862e1fde29b5bcf",
+  "fromAddress": "0x6cA7a8a4Eb5CC0F38399f46d5Dea99dd88c58C6d",
+  "toAddress": "0xB3Ad8580529B06d2Ed81d6aD348d8BaDf561Dd43",
+  "chainId": 7862,
+  "network": "Maal Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2025-12-08T10:05:22.519Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-12-08T10:05:24.158Z",
+    "lastChecked": "2025-12-08T10:38:04.111Z",
+    "blockNumber": 8036688,
+    "fee": {
+      "$numberLong": "21000"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-12-08T10:05:24.171Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-08T10:38:32.999Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "6936aa8dd263bbc7f9bb1313"
+  }
+},
+{
+  "_id": {
+    "$oid": "693d00b97ead1993c88d42ab"
+  },
+  "userId": {
+    "$oid": "693c126d2e4d04f84e6d86f3"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 100,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 2.63,
+    "totalFee": 27.63
+  },
+  "finalAmount": 72.38,
+  "txHash": "0x07b1e84733fc16211b1e1c7b71cc011d3dfafa42cd9d23aa6ce05bf6836db875",
+  "fromAddress": "0xa0be778b61944c3354883011762bc0f7b94d1753",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2025-12-13T05:59:21.403Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-12-13T05:59:21.694Z",
+    "lastChecked": "2025-12-13T05:59:42.204Z",
+    "blockNumber": 71471690,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-12-13T05:59:21.717Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-13T05:59:42.832Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "693d00ce7ead1993c88d42b0"
+  }
+},
+{
+  "_id": {
+    "$oid": "693d03a47ead1993c88d42e6"
+  },
+  "userId": {
+    "$oid": "693d030a7ead1993c88d42d4"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 100,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 2.63,
+    "totalFee": 27.63
+  },
+  "finalAmount": 72.38,
+  "txHash": "0xa07757e97a2115962543cbc1f20159bada9c98a6298c52c66e8e09a6e8445fb3",
+  "fromAddress": "0xa0be778b61944c3354883011762bc0f7b94d1753",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2025-12-13T06:11:48.399Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-12-13T06:11:48.755Z",
+    "lastChecked": "2025-12-13T06:12:09.319Z",
+    "blockNumber": 71472686,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-12-13T06:11:48.761Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-13T06:12:09.827Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "693d03b97ead1993c88d42eb"
+  }
+},
+{
+  "_id": {
+    "$oid": "693d10ff78d8f4443ad3ac99"
+  },
+  "userId": {
+    "$oid": "68f5045a02ca9897f4b446ca"
+  },
+  "cardId": {
+    "$oid": "68f9a7f1fab1daaac079acb9"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 10.35,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 0.35,
+    "totalFee": 0.35
+  },
+  "finalAmount": 10,
+  "txHash": "0x7cd34575c47db7e37bcd8ea4f06033dd1be50c293ecdff91f906c6f6ef85edfe",
+  "fromAddress": "0xa0be778b61944c3354883011762bc0f7b94d1753",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "metadata": {
+    "san": "7b8be0c020251023112711",
+    "topupAmount": 10,
+    "feeAmount": 0.35,
+    "feePercentage": 3.5,
+    "totalPaid": 10.35,
+    "currency": "USD",
+    "cardBalance": 24.13,
+    "previousBalance": 24.13,
+    "estimatedNewBalance": 34.129999999999995,
+    "lastChecked": "2025-12-13T07:09:08.893Z",
+    "blockNumber": {
+      "$numberLong": "71477243"
+    },
+    "fee": {
+      "$numberLong": "34503"
+    },
+    "feeApiResponse": {
+      "success": true,
+      "message": "Updated topup fee (+0.35) successfully",
+      "data": {
+        "totalTopupfee": 37.88000000000001,
+        "totalCardIssuancefee": 400,
+        "amountsAdded": {
+          "topupFee": 0.35
+        },
+        "updatedAt": "2025-12-13T07:09:09.718Z"
+      }
+    },
+    "feeRecordedAt": "2025-12-13T07:09:09.787Z",
+    "externalTopupSuccess": true,
+    "request_id": "23db1f87-413b-4796-9ff1-0955cae0d620",
+    "topupid": 953180890,
+    "externalTopupResponse": {
+      "request_id": "23db1f87-413b-4796-9ff1-0955cae0d620",
+      "topupid": 953180890
+    },
+    "externalTopupTimestamp": "2025-12-13T07:09:09.858Z"
+  },
+  "createdAt": {
+    "$date": "2025-12-13T07:08:47.042Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-13T07:09:09.859Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693fa8af0fd0121a231c55cb"
+  },
+  "userId": {
+    "$oid": "693f7239a18927c8cf806794"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 100,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 2.63,
+    "totalFee": 27.63
+  },
+  "finalAmount": 72.38,
+  "txHash": "0x81636567a69ab7cd20a4771a1cd4b6d07a2738a5747df2343327a6b6d7a4cb88",
+  "fromAddress": "0xA0be778b61944C3354883011762Bc0F7b94D1753",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2025-12-15T06:20:30.150Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-12-15T06:20:31.713Z",
+    "lastChecked": "2025-12-15T06:20:52.221Z",
+    "blockNumber": 71703668,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-12-15T06:20:31.734Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-15T06:20:52.731Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "693fa8c40fd0121a231c55d0"
+  }
+},
+{
+  "_id": {
+    "$oid": "693fba5e0fd0121a231c56ff"
+  },
+  "userId": {
+    "$oid": "693fb9cd0fd0121a231c56e7"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "0x9d9a003fe8c2f4285945d42cca9391adc1a4124c78ce2777f3f39642714ed123",
+  "fromAddress": "0x607867689c72bc52EB489CC55a3db8E5A80B23cd",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2025-12-15T07:35:58.420Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-12-15T07:35:58.597Z",
+    "lastChecked": "2025-12-15T07:36:18.962Z",
+    "blockNumber": 71709698,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-12-15T07:35:58.603Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-15T07:36:19.761Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "693fba730fd0121a231c5704"
+  }
+},
+{
+  "_id": {
+    "$oid": "6940ccf126fdacb866b9c9a1"
+  },
+  "userId": {
+    "$oid": "693e0dd34ebbb19a672b1a3a"
+  },
+  "cardId": {
+    "$oid": "68f75794f7c039f0adfd04bb"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 10.35,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 0.35,
+    "totalFee": 0.35
+  },
+  "finalAmount": 10,
+  "txHash": "0xe28106cf87522aa5680f922e14516fd664c10ab76076ae3b70e5340fe0e4181e",
+  "fromAddress": "0x5AeC5682B9DF6F9d0288a364757A68694cf63f71",
+  "toAddress": "0xB3Ad8580529B06d2Ed81d6aD348d8BaDf561Dd43",
+  "chainId": 7862,
+  "network": "Maal Chain",
+  "metadata": {
+    "san": "91cc0f7620251022170518",
+    "topupAmount": 10,
+    "feeAmount": 0.35,
+    "feePercentage": 3.5,
+    "totalPaid": 10.35,
+    "currency": "USD",
+    "cardBalance": 9.65,
+    "previousBalance": 9.65,
+    "estimatedNewBalance": 19.65,
+    "lastChecked": "2025-12-16T03:07:56.629Z",
+    "blockNumber": {
+      "$numberLong": "8167300"
+    },
+    "fee": {
+      "$numberLong": "21000"
+    },
+    "feeApiResponse": {
+      "success": true,
+      "message": "Updated topup fee (+0.35) successfully",
+      "data": {
+        "totalTopupfee": 41.740000000000016,
+        "totalCardIssuancefee": 450,
+        "amountsAdded": {
+          "topupFee": 0.35
+        },
+        "updatedAt": "2025-12-16T03:07:58.009Z"
+      }
+    },
+    "feeRecordedAt": "2025-12-16T03:07:58.084Z",
+    "externalTopupSuccess": true,
+    "request_id": "ffc062c4-4ee6-4d7a-abaa-a85703d811ef",
+    "topupid": 957211697,
+    "externalTopupResponse": {
+      "request_id": "ffc062c4-4ee6-4d7a-abaa-a85703d811ef",
+      "topupid": 957211697
+    },
+    "externalTopupTimestamp": "2025-12-16T03:07:58.159Z"
+  },
+  "createdAt": {
+    "$date": "2025-12-16T03:07:29.258Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-16T03:07:58.159Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6940de64bf0c1fbb8d1f2b84"
+  },
+  "userId": {
+    "$oid": "6940dc6bbf0c1fbb8d1f2b72"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 100,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 2.63,
+    "totalFee": 27.63
+  },
+  "finalAmount": 72.38,
+  "txHash": "0x7dc59612cf5e79eb774ed73cc983b1a497730c5eed7e483dbe143ff016b95150",
+  "fromAddress": "0x8ae3ad9d258abc6a8c475ca5dbb70137c9c2ab81",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2025-12-16T04:21:55.553Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-12-16T04:21:56.001Z",
+    "lastChecked": "2025-12-16T04:22:16.392Z",
+    "blockNumber": 71809372,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-12-16T04:21:56.007Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-16T04:22:17.281Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "6940de79bf0c1fbb8d1f2b89"
+  }
+},
+{
+  "_id": {
+    "$oid": "6941085ebf0c1fbb8d1f2cf2"
+  },
+  "userId": {
+    "$oid": "694107f6bf0c1fbb8d1f2ce0"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "0x079befbef0ee75a9d91035c585fc74e7bf6d7318fc71a456d8e80f93b8707cd7",
+  "fromAddress": "0x8ae3ad9d258abc6a8c475ca5dbb70137c9c2ab81",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2025-12-16T07:21:02.287Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-12-16T07:21:02.458Z",
+    "lastChecked": "2025-12-16T07:21:22.880Z",
+    "blockNumber": 71823698,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-12-16T07:21:02.465Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-16T07:21:23.382Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "69410873bf0c1fbb8d1f2cf7"
+  }
+},
+{
+  "_id": {
+    "$oid": "694112afbf0c1fbb8d1f2d24"
+  },
+  "userId": {
+    "$oid": "692feee985891d1268899b09"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "0xd560a92a57bc65bddbee7389dd761510fb8d66b89977085c1e20384429d8d323",
+  "fromAddress": "0x8ae3ad9d258abc6a8c475ca5dbb70137c9c2ab81",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2025-12-16T08:05:03.185Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-12-16T08:05:03.387Z",
+    "lastChecked": "2025-12-16T08:05:23.782Z",
+    "blockNumber": 71827219,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-12-16T08:05:03.405Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-16T08:05:24.560Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "694112c4bf0c1fbb8d1f2d29"
+  }
+},
+{
+  "_id": {
+    "$oid": "6941159dbf0c1fbb8d1f2d5f"
+  },
+  "userId": {
+    "$oid": "6941156dbf0c1fbb8d1f2d4d"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 100,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 2.63,
+    "totalFee": 27.63
+  },
+  "finalAmount": 72.38,
+  "txHash": "0x27853466921938276e0d62d627228b153107186f34712381596d0fabc2665bab",
+  "fromAddress": "0x8ae3ad9d258abc6a8c475ca5dbb70137c9c2ab81",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2025-12-16T08:17:33.328Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-12-16T08:17:33.524Z",
+    "lastChecked": "2025-12-16T08:17:53.875Z",
+    "blockNumber": 71828219,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-12-16T08:17:33.529Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-16T08:17:54.385Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "694115b2bf0c1fbb8d1f2d75"
+  }
+},
+{
+  "_id": {
+    "$oid": "694118cdbf0c1fbb8d1f2dc8"
+  },
+  "userId": {
+    "$oid": "69411847bf0c1fbb8d1f2db7"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "0x83c4c803a9d804a2d1bf0566443b4bf0581465cbbc083d885ce1a53dccec2581",
+  "fromAddress": "0x8ae3ad9d258abc6a8c475ca5dbb70137c9c2ab81",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2025-12-16T08:31:02.827Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-12-16T08:31:09.115Z",
+    "lastChecked": "2025-12-16T08:31:29.789Z",
+    "blockNumber": 71829300,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-12-16T08:31:09.121Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-16T08:31:30.242Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "694118e2bf0c1fbb8d1f2dcd"
+  }
+},
+{
+  "_id": {
+    "$oid": "694253e80b1848cd1256ff8c"
+  },
+  "userId": {
+    "$oid": "693e0dd34ebbb19a672b1a3a"
+  },
+  "cardId": {
+    "$oid": "68f75794f7c039f0adfd04bb"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 10.35,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 0.35,
+    "totalFee": 0.35
+  },
+  "finalAmount": 10,
+  "txHash": "0x77c7b678642d167247bb1cc73e7820285cc7c478d625699fe3cbaad9068deced",
+  "fromAddress": "0x5AeC5682B9DF6F9d0288a364757A68694cf63f71",
+  "toAddress": "0xB3Ad8580529B06d2Ed81d6aD348d8BaDf561Dd43",
+  "chainId": 7862,
+  "network": "Maal Chain",
+  "metadata": {
+    "san": "91cc0f7620251022170518",
+    "topupAmount": 10,
+    "feeAmount": 0.35,
+    "feePercentage": 3.5,
+    "totalPaid": 10.35,
+    "currency": "USD",
+    "cardBalance": 9.65,
+    "previousBalance": 9.65,
+    "estimatedNewBalance": 19.65,
+    "lastChecked": "2025-12-17T06:56:01.553Z",
+    "blockNumber": {
+      "$numberLong": "8186991"
+    },
+    "fee": {
+      "$numberLong": "58483"
+    },
+    "feeApiResponse": {
+      "success": true,
+      "message": "Updated topup fee (+0.35) successfully",
+      "data": {
+        "totalTopupfee": 49.99000000000003,
+        "totalCardIssuancefee": 575,
+        "amountsAdded": {
+          "topupFee": 0.35
+        },
+        "updatedAt": "2025-12-17T06:56:02.363Z"
+      }
+    },
+    "feeRecordedAt": "2025-12-17T06:56:02.441Z",
+    "externalTopupSuccess": true,
+    "request_id": "91912688-d148-4e2d-979d-06946aa80bd7",
+    "topupid": 959316283,
+    "externalTopupResponse": {
+      "request_id": "91912688-d148-4e2d-979d-06946aa80bd7",
+      "topupid": 959316283
+    },
+    "externalTopupTimestamp": "2025-12-17T06:56:02.513Z"
+  },
+  "createdAt": {
+    "$date": "2025-12-17T06:55:36.981Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-17T06:56:02.515Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694507ea0b1848cd1257035f"
+  },
+  "userId": {
+    "$oid": "6945074e0b1848cd1257034e"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 100,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 2.63,
+    "totalFee": 27.63
+  },
+  "finalAmount": 72.38,
+  "txHash": "0x1c7aefff042febd6fe89e3a287912fedc316360e53e89309f7811785e3d92d6a",
+  "fromAddress": "0x8ae3ad9d258abc6a8c475ca5dbb70137c9c2ab81",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2025-12-19T08:08:10.370Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-12-19T08:08:10.601Z",
+    "lastChecked": "2025-12-19T08:08:31.075Z",
+    "blockNumber": 72172951,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-12-19T08:08:10.607Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-19T08:08:31.898Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "694507ff0b1848cd12570364"
+  }
+},
+{
+  "_id": {
+    "$oid": "6947dc690b1848cd12570790"
+  },
+  "userId": {
+    "$oid": "693f7239a18927c8cf806794"
+  },
+  "cardId": {
+    "$oid": "693fa8c40fd0121a231c55d0"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 10.35,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 0.35,
+    "totalFee": 0.35
+  },
+  "finalAmount": 10,
+  "txHash": "0x99f8dd801f0cdf2575e4075f59f3b660fc6a55707cfc697f1d52a7159dc64a26",
+  "fromAddress": "0xe4a5ef7320f69035bc9fdd2d87ef13fce7690f81",
+  "toAddress": "0xB3Ad8580529B06d2Ed81d6aD348d8BaDf561Dd43",
+  "chainId": 7862,
+  "network": "Maal Chain",
+  "metadata": {
+    "san": "6bb45f3c20251215142054",
+    "topupAmount": 10,
+    "feeAmount": 0.35,
+    "feePercentage": 3.5,
+    "totalPaid": 10.35,
+    "currency": "USD",
+    "cardBalance": 72.38,
+    "previousBalance": 72.38,
+    "estimatedNewBalance": 82.38,
+    "lastChecked": "2025-12-21T11:40:01.170Z",
+    "blockNumber": {
+      "$numberLong": "8258473"
+    },
+    "fee": {
+      "$numberLong": "41383"
+    },
+    "feeApiResponse": {
+      "success": true,
+      "message": "Updated topup fee (+0.35) successfully",
+      "data": {
+        "totalTopupfee": 52.970000000000034,
+        "totalCardIssuancefee": 600,
+        "amountsAdded": {
+          "topupFee": 0.35
+        },
+        "updatedAt": "2025-12-21T11:40:01.681Z"
+      }
+    },
+    "feeRecordedAt": "2025-12-21T11:40:01.763Z",
+    "externalTopupSuccess": true,
+    "request_id": "f6e41a45-b4a3-47f7-b657-4493cc95b1e7",
+    "topupid": 963921345,
+    "externalTopupResponse": {
+      "request_id": "f6e41a45-b4a3-47f7-b657-4493cc95b1e7",
+      "topupid": 963921345
+    },
+    "externalTopupTimestamp": "2025-12-21T11:40:01.830Z"
+  },
+  "createdAt": {
+    "$date": "2025-12-21T11:39:21.029Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-21T11:40:01.831Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6948c2350b1848cd12570916"
+  },
+  "userId": {
+    "$oid": "6911b8f16811870c87bf58a7"
+  },
+  "cardId": {
+    "$oid": "692d139785891d1268898318"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 10.35,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 0.35,
+    "totalFee": 0.35
+  },
+  "finalAmount": 10,
+  "txHash": "0xd4837841e369640cb75df9c489fd5adbbfb4cddde2c6603e091356c7b6c46f10",
+  "fromAddress": "0xe3C7b6a881bD261DaCcD66dB3FA91cFBc8b26C82",
+  "toAddress": "0xB3Ad8580529B06d2Ed81d6aD348d8BaDf561Dd43",
+  "chainId": 7862,
+  "network": "Maal Chain",
+  "metadata": {
+    "san": "63fc06e020251201120636",
+    "topupAmount": 10,
+    "feeAmount": 0.35,
+    "feePercentage": 3.5,
+    "totalPaid": 10.35,
+    "currency": "USD",
+    "cardBalance": 24.13,
+    "previousBalance": 24.13,
+    "estimatedNewBalance": 34.129999999999995,
+    "lastChecked": "2025-12-22T04:00:11.909Z",
+    "blockNumber": {
+      "$numberLong": "8270092"
+    },
+    "fee": {
+      "$numberLong": "41383"
+    },
+    "feeApiResponse": {
+      "success": true,
+      "message": "Updated topup fee (+0.35) successfully",
+      "data": {
+        "totalTopupfee": 53.320000000000036,
+        "totalCardIssuancefee": 600,
+        "amountsAdded": {
+          "topupFee": 0.35
+        },
+        "updatedAt": "2025-12-22T04:00:12.795Z"
+      }
+    },
+    "feeRecordedAt": "2025-12-22T04:00:12.840Z",
+    "externalTopupSuccess": true,
+    "request_id": "8be35fbe-85db-4672-820c-48c02ccb6df2",
+    "topupid": 964347947,
+    "externalTopupResponse": {
+      "request_id": "8be35fbe-85db-4672-820c-48c02ccb6df2",
+      "topupid": 964347947
+    },
+    "externalTopupTimestamp": "2025-12-22T04:00:12.909Z"
+  },
+  "createdAt": {
+    "$date": "2025-12-22T03:59:49.102Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-22T04:00:12.911Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69533bb3a6234d8a9993c0ab"
+  },
+  "userId": {
+    "$oid": "6953324ea6234d8a9993c027"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 100,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 2.63,
+    "totalFee": 27.63
+  },
+  "finalAmount": 72.38,
+  "txHash": "0xca58d695b598f89ca8ab959f1841ac24edde3834b36d56cac9afa8ff74c6d956",
+  "fromAddress": "0x0Ae8540C59bC3cDCC8d0b6F4284Ef0D15177a6f8",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2025-12-30T02:40:50.877Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2025-12-30T02:40:51.123Z",
+    "lastChecked": "2025-12-30T02:41:11.776Z",
+    "blockNumber": 73413673,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-12-30T02:40:51.132Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-30T02:41:12.314Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "69533bc8a6234d8a9993c0b0"
+  }
+},
+{
+  "_id": {
+    "$oid": "69576e8da6234d8a9993c217"
+  },
+  "userId": {
+    "$oid": "6901fbb0fc19d2fffe7a0c50"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 100,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 2.63,
+    "totalFee": 27.63
+  },
+  "finalAmount": 72.38,
+  "txHash": "0x48778c54a58e37bcd0f883c6cc81a6288a877b525317b1e2fd7f187329c83f09",
+  "fromAddress": "0xDA41a16c0892314BCE83bA9ddCE1720111559CB4",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2026-01-02T07:06:53.640Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2026-01-02T07:06:53.812Z",
+    "lastChecked": "2026-01-02T07:07:14.315Z",
+    "blockNumber": 73780470,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2026-01-02T07:06:53.821Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T07:07:15.269Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "69576ea3a6234d8a9993c21c"
+  }
+},
+{
+  "_id": {
+    "$oid": "69578358a6234d8a9993c29b"
+  },
+  "userId": {
+    "$oid": "6901fbb0fc19d2fffe7a0c50"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 100,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 2.63,
+    "totalFee": 27.63
+  },
+  "finalAmount": 72.38,
+  "txHash": "0xf6195c88b7a5aef15cbe85cd57e69f64ce8adffa7f9047b3e1aec712df966c1c",
+  "fromAddress": "0xda41a16c0892314bce83ba9ddce1720111559cb4",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2026-01-02T08:35:36.098Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2026-01-02T08:35:36.270Z",
+    "lastChecked": "2026-01-02T08:35:56.644Z",
+    "blockNumber": 73787570,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2026-01-02T08:35:36.279Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T08:35:57.502Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "6957836da6234d8a9993c2a0"
+  }
+},
+{
+  "_id": {
+    "$oid": "695b29c7a6234d8a9993c758"
+  },
+  "userId": {
+    "$oid": "695b28f2a6234d8a9993c73b"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "0x5f19e6f48b6fe2bbc06df354b77eec57c47029d742b28af4d57781ba40eb40e8",
+  "fromAddress": "0x0Ae8540C59bC3cDCC8d0b6F4284Ef0D15177a6f8",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2026-01-05T03:02:31.604Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2026-01-05T03:02:31.714Z",
+    "lastChecked": "2026-01-05T03:02:52.136Z",
+    "blockNumber": 74106497,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2026-01-05T03:02:31.718Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-05T03:02:53.028Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "695b29dca6234d8a9993c75d"
+  }
+},
+{
+  "_id": {
+    "$oid": "695b3d26a6234d8a9993c844"
+  },
+  "userId": {
+    "$oid": "695b3b43a6234d8a9993c80c"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "0xf60fb5faa0abf8fb8416eb04f6601de676c9b710f56877912a887b854d1b9999",
+  "fromAddress": "0x0Ae8540C59bC3cDCC8d0b6F4284Ef0D15177a6f8",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2026-01-05T04:25:09.895Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2026-01-05T04:25:10.195Z",
+    "lastChecked": "2026-01-05T04:25:30.679Z",
+    "blockNumber": 74113108,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2026-01-05T04:25:10.198Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-05T04:25:31.536Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "695b3d3ba6234d8a9993c849"
+  }
+},
+{
+  "_id": {
+    "$oid": "695e291330a6f79eee9c117b"
+  },
+  "userId": {
+    "$oid": "695e272030a6f79eee9c116b"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "0x324060d050857c7204e18e82391180a3deb33d6696624af43ee3db882da86658",
+  "fromAddress": "0x0Ae8540C59bC3cDCC8d0b6F4284Ef0D15177a6f8",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2026-01-07T09:36:19.665Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2026-01-07T09:36:19.820Z",
+    "lastChecked": "2026-01-07T09:36:40.195Z",
+    "blockNumber": 74368389,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2026-01-07T09:36:19.826Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-07T09:36:41.044Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "695e292830a6f79eee9c1180"
+  }
+},
+{
+  "_id": {
+    "$oid": "695e2b5830a6f79eee9c11bf"
+  },
+  "userId": {
+    "$oid": "695e2afe30a6f79eee9c11af"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "0xdc92a6a17c63555afb2588149b061474517bf68d8a8eade40a7ee4d2acf78451",
+  "fromAddress": "0x0Ae8540C59bC3cDCC8d0b6F4284Ef0D15177a6f8",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2026-01-07T09:45:59.893Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2026-01-07T09:46:00.048Z",
+    "lastChecked": "2026-01-07T09:46:20.523Z",
+    "blockNumber": 74369163,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2026-01-07T09:46:00.055Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-07T09:46:20.990Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "695e2b6c30a6f79eee9c11c4"
+  }
+},
+{
+  "_id": {
+    "$oid": "695f2cb030a6f79eee9c137a"
+  },
+  "userId": {
+    "$oid": "695f2bc130a6f79eee9c1329"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 100,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 2.63,
+    "totalFee": 27.63
+  },
+  "finalAmount": 72.38,
+  "txHash": "0xfae53696d68cb2e6968467dba3e0a3b58d44c3a35596cd50d09fa3764f1c63b5",
+  "fromAddress": "0x11b886D436B0bCa23BA0e123609FB72c57e2755f",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2026-01-08T04:04:00.358Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2026-01-08T04:04:00.503Z",
+    "lastChecked": "2026-01-08T04:04:21.025Z",
+    "blockNumber": 74456988,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2026-01-08T04:04:00.510Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T04:04:21.875Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "695f2cc530a6f79eee9c137f"
+  }
+},
+{
+  "_id": {
+    "$oid": "695f2d5c30a6f79eee9c13b5"
+  },
+  "userId": {
+    "$oid": "695f2cef30a6f79eee9c139a"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 100,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 2.63,
+    "totalFee": 27.63
+  },
+  "finalAmount": 72.38,
+  "txHash": "0x95d9499ef1476e3387b7dbc007790c73141d72362d2b0c78ce490c8788218be9",
+  "fromAddress": "0x11b886D436B0bCa23BA0e123609FB72c57e2755f",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2026-01-08T04:06:51.508Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2026-01-08T04:06:52.519Z",
+    "lastChecked": "2026-01-08T04:07:12.990Z",
+    "blockNumber": 74457218,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2026-01-08T04:06:52.523Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T04:07:13.869Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "695f2d7130a6f79eee9c13ba"
+  }
+},
+{
+  "_id": {
+    "$oid": "695f5ff430a6f79eee9c1458"
+  },
+  "userId": {
+    "$oid": "695f5e5130a6f79eee9c143d"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "0xbc18025085fd02115eed4c20ce333167622c287198b0e759916fdb881b050791",
+  "fromAddress": "0x11b886D436B0bCa23BA0e123609FB72c57e2755f",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2026-01-08T07:42:44.112Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2026-01-08T07:42:44.275Z",
+    "lastChecked": "2026-01-08T07:43:04.647Z",
+    "blockNumber": 74474486,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2026-01-08T07:42:44.279Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T07:43:05.439Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "695f600930a6f79eee9c145d"
+  }
+},
+{
+  "_id": {
+    "$oid": "695f6f4530a6f79eee9c151b"
+  },
+  "userId": {
+    "$oid": "6900bf63b79d9adbaedb2842"
+  },
+  "cardId": {
+    "$oid": "6911c8033caa196bb137b006"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 517.5,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 17.5,
+    "totalFee": 17.5
+  },
+  "finalAmount": 500,
+  "txHash": "0x5881639b4fa0894e30ba9260ee4da89b47ebc3c10791c2f1914432d368685441",
+  "fromAddress": "0x11b886d436b0bca23ba0e123609fb72c57e2755f",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "metadata": {
+    "san": "24085be120251110190957",
+    "topupAmount": 500,
+    "feeAmount": 17.5,
+    "feePercentage": 3.5,
+    "totalPaid": 517.5,
+    "currency": "USD",
+    "cardBalance": 72.38,
+    "previousBalance": 72.38,
+    "estimatedNewBalance": 572.38,
+    "lastChecked": "2026-01-08T08:48:26.196Z",
+    "blockNumber": {
+      "$numberLong": "74479704"
+    },
+    "fee": {
+      "$numberLong": "34515"
+    },
+    "feeApiResponse": {
+      "success": true,
+      "message": "Updated topup fee (+17.5) successfully",
+      "data": {
+        "totalTopupfee": 85.74000000000004,
+        "totalCardIssuancefee": 825,
+        "amountsAdded": {
+          "topupFee": 17.5
+        },
+        "updatedAt": "2026-01-08T08:48:26.689Z"
+      }
+    },
+    "feeRecordedAt": "2026-01-08T08:48:26.760Z",
+    "externalTopupSuccess": true,
+    "request_id": "162c9946-dec1-4e24-af90-29a6ee3f5997",
+    "topupid": 978233170,
+    "externalTopupResponse": {
+      "request_id": "162c9946-dec1-4e24-af90-29a6ee3f5997",
+      "topupid": 978233170
+    },
+    "externalTopupTimestamp": "2026-01-08T08:48:26.828Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T08:48:05.581Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T08:48:26.829Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f6f9e30a6f79eee9c1531"
+  },
+  "userId": {
+    "$oid": "6900bf63b79d9adbaedb2842"
+  },
+  "cardId": {
+    "$oid": "6901d8018733957ffb89fc50"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 2070,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 70,
+    "totalFee": 70
+  },
+  "finalAmount": 2000,
+  "txHash": "0xd5e030d2d352d20234b8fd98a99419fdf578d96cf20ceb92df3b3620db209767",
+  "fromAddress": "0x11b886d436b0bca23ba0e123609fb72c57e2755f",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "metadata": {
+    "san": "c7455a6920251029170154",
+    "topupAmount": 2000,
+    "feeAmount": 70,
+    "feePercentage": 3.5,
+    "totalPaid": 2070,
+    "currency": "USD",
+    "cardBalance": 72.38,
+    "previousBalance": 72.38,
+    "estimatedNewBalance": 2072.38,
+    "lastChecked": "2026-01-08T08:49:54.826Z",
+    "blockNumber": {
+      "$numberLong": "74479825"
+    },
+    "fee": {
+      "$numberLong": "34515"
+    },
+    "externalTopupSuccess": false,
+    "externalTopupError": "Request failed with status code 422",
+    "externalTopupErrorDetails": {
+      "error": "unprocessable entity",
+      "cause": "Insufficient funds"
+    },
+    "externalTopupTimestamp": "2026-01-08T08:49:55.509Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T08:49:34.157Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T08:49:55.511Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69614ba330a6f79eee9c1775"
+  },
+  "userId": {
+    "$oid": "695e635430a6f79eee9c1208"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "0xefcff52b149cc792afd048baac7b1631d30d3e5c7ba1d54682ce4c2b8752ffca",
+  "fromAddress": "0x54cc41864d6fe10ae14395d0d710fa7754617e5e",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 1,
+  "network": "Ethereum Mainnet",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2026-01-09T18:40:34.530Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2026-01-09T18:40:35.709Z",
+    "lastChecked": "2026-01-09T18:40:56.473Z",
+    "blockNumber": 24198979,
+    "fee": {
+      "$numberLong": "46109"
+    }
+  },
+  "createdAt": {
+    "$date": "2026-01-09T18:40:35.714Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T18:40:57.389Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "69614bb930a6f79eee9c177a"
+  }
+},
+{
+  "_id": {
+    "$oid": "696266e230a6f79eee9c17ee"
+  },
+  "userId": {
+    "$oid": "696265d430a6f79eee9c17d8"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "0x435a3cc7b5eaecfb96676c200139ff3c2a120f229cd5e36825187e9f0856ffc9",
+  "fromAddress": "0x11b886D436B0bCa23BA0e123609FB72c57e2755f",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2026-01-10T14:49:08.802Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2026-01-10T14:49:06.776Z",
+    "lastChecked": "2026-01-10T14:49:27.225Z",
+    "blockNumber": 74738951,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2026-01-10T14:49:06.781Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T14:49:27.959Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "696266f730a6f79eee9c17f3"
+  }
+},
+{
+  "_id": {
+    "$oid": "6962692b30a6f79eee9c1851"
+  },
+  "userId": {
+    "$oid": "6962685c30a6f79eee9c1822"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "0x7134965315a6b2ddabe05ed1db8e87f64352ca3194ef0d88a6135790f692c339",
+  "fromAddress": "0x11b886D436B0bCa23BA0e123609FB72c57e2755f",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2026-01-10T14:58:51.486Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2026-01-10T14:58:51.765Z",
+    "lastChecked": "2026-01-10T14:59:12.448Z",
+    "blockNumber": 74739733,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2026-01-10T14:58:51.768Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T14:59:13.009Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "6962694030a6f79eee9c1856"
+  }
+},
+{
+  "_id": {
+    "$oid": "6962743530a6f79eee9c18b6"
+  },
+  "userId": {
+    "$oid": "6962685c30a6f79eee9c1822"
+  },
+  "cardId": {
+    "$oid": "6962694030a6f79eee9c1856"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 258.75,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 8.75,
+    "totalFee": 8.75
+  },
+  "finalAmount": 250,
+  "txHash": "0x14a9d29a8bb490eaa11562a4f373b5b377f4773a71dff7404ad334c1576ce630",
+  "fromAddress": "0x11b886d436b0bca23ba0e123609fb72c57e2755f",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "metadata": {
+    "san": "3eb2f20620260110225913",
+    "topupAmount": 250,
+    "feeAmount": 8.75,
+    "feePercentage": 3.5,
+    "totalPaid": 258.75,
+    "currency": "USD",
+    "cardBalance": 24.13,
+    "previousBalance": 24.13,
+    "estimatedNewBalance": 274.13,
+    "lastChecked": "2026-01-10T15:46:18.219Z",
+    "blockNumber": {
+      "$numberLong": "74743503"
+    },
+    "fee": {
+      "$numberLong": "34515"
+    },
+    "feeApiResponse": {
+      "success": true,
+      "message": "Updated topup fee (+8.75) successfully",
+      "data": {
+        "totalTopupfee": 97.13000000000002,
+        "totalCardIssuancefee": 900,
+        "amountsAdded": {
+          "topupFee": 8.75
+        },
+        "updatedAt": "2026-01-10T15:46:18.695Z"
+      }
+    },
+    "feeRecordedAt": "2026-01-10T15:46:18.740Z",
+    "externalTopupSuccess": true,
+    "request_id": "438ed77a-914c-4636-ba2b-e1f812f6436b",
+    "topupid": 980242078,
+    "externalTopupResponse": {
+      "request_id": "438ed77a-914c-4636-ba2b-e1f812f6436b",
+      "topupid": 980242078
+    },
+    "externalTopupTimestamp": "2026-01-10T15:46:18.806Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-10T15:45:57.436Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T15:46:18.807Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "696498e330a6f79eee9c1c47"
+  },
+  "userId": {
+    "$oid": "694107f6bf0c1fbb8d1f2ce0"
+  },
+  "cardId": {
+    "$oid": "69410873bf0c1fbb8d1f2cf7"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 1035,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 35,
+    "totalFee": 35
+  },
+  "finalAmount": 1000,
+  "txHash": "0xd3ad8cce884453e7e270550b34a582ecaa48b2ad5c4157cb7cef9db2e742d348",
+  "fromAddress": "0x55E1a52baD3A0b9F6FBcD5372ad3b981D9A36eE8",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "metadata": {
+    "san": "4562dfc020251216152124",
+    "topupAmount": 1000,
+    "feeAmount": 35,
+    "feePercentage": 3.5,
+    "totalPaid": 1035,
+    "currency": "USD",
+    "cardBalance": 24.13,
+    "previousBalance": 24.13,
+    "estimatedNewBalance": 1024.13,
+    "lastChecked": "2026-01-12T06:47:20.032Z",
+    "blockNumber": {
+      "$numberLong": "74930766"
+    },
+    "fee": {
+      "$numberLong": "29715"
+    },
+    "externalTopupSuccess": true,
+    "request_id": "829c9a1e-36b9-4cf8-8a9b-d07d857ff027",
+    "topupid": 981373285,
+    "externalTopupResponse": {
+      "request_id": "829c9a1e-36b9-4cf8-8a9b-d07d857ff027",
+      "topupid": 981373285
+    },
+    "externalTopupTimestamp": "2026-01-12T06:47:30.868Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-12T06:46:59.280Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-12T06:47:30.869Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69649d3a30a6f79eee9c1c79"
+  },
+  "userId": {
+    "$oid": "69649c7530a6f79eee9c1c6a"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "0x35408c26c2affd64f03733413a2788c4a9afcab7c6171b47c4ea9c1e4148eafd",
+  "fromAddress": "0x11b886D436B0bCa23BA0e123609FB72c57e2755f",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2026-01-12T07:05:29.961Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2026-01-12T07:05:30.177Z",
+    "lastChecked": "2026-01-12T07:05:50.906Z",
+    "blockNumber": 74932246,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2026-01-12T07:05:30.180Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-12T07:05:51.789Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "69649d4f30a6f79eee9c1c7e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6964bb0b30a6f79eee9c1e50"
+  },
+  "userId": {
+    "$oid": "6963965830a6f79eee9c1b2a"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 1000,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 34.13,
+    "totalFee": 59.13
+  },
+  "finalAmount": 940.88,
+  "txHash": "0x28daf375de91e702ecd5d56cdbf306a85d74cf85c4e193d1de3a375f57811feb",
+  "fromAddress": "0xb4E8d4f0a7dC8f8a9F3Cb2B8368B0d156A55ae5a",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2026-01-12T09:12:43.247Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2026-01-12T09:12:43.421Z",
+    "lastChecked": "2026-01-12T09:13:03.789Z",
+    "blockNumber": 74942420,
+    "fee": {
+      "$numberLong": "29715"
+    }
+  },
+  "createdAt": {
+    "$date": "2026-01-12T09:12:43.425Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-12T09:13:04.325Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "6964bb2030a6f79eee9c1e55"
+  }
+},
+{
+  "_id": {
+    "$oid": "696721c930a6f79eee9c21d4"
+  },
+  "userId": {
+    "$oid": "6967212530a6f79eee9c21b9"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "0x2c6fb6227e496a940a021de6646e83bc676b9d68edf6d212b98f610669e72e07",
+  "fromAddress": "0x11b886D436B0bCa23BA0e123609FB72c57e2755f",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2026-01-14T04:55:35.046Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2026-01-14T04:55:37.253Z",
+    "lastChecked": "2026-01-14T04:55:57.659Z",
+    "blockNumber": 75160005,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2026-01-14T04:55:37.257Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-14T04:55:58.162Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "696721de30a6f79eee9c21d9"
+  }
+},
+{
+  "_id": {
+    "$oid": "6969afb2b03a855cdb36d8b8"
+  },
+  "userId": {
+    "$oid": "692d0ea585891d1268898111"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 100,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 2.63,
+    "totalFee": 27.63
+  },
+  "finalAmount": 72.38,
+  "txHash": "0x468a69ff4bb7d30e6db9021279315c7175eddd1285cf63f531b19032a8be8749",
+  "fromAddress": "0x11b886D436B0bCa23BA0e123609FB72c57e2755f",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2026-01-16T03:25:37.981Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2026-01-16T03:25:38.400Z",
+    "lastChecked": "2026-01-16T03:25:58.870Z",
+    "blockNumber": 75531882,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2026-01-16T03:25:38.416Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-16T03:25:59.371Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "6969afc7b03a855cdb36d8c6"
+  }
+},
+{
+  "_id": {
+    "$oid": "6969b1dcb03a855cdb36d9ac"
+  },
+  "userId": {
+    "$oid": "69241cb6e61f14c64dad8bb5"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 100,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 2.63,
+    "totalFee": 27.63
+  },
+  "finalAmount": 72.38,
+  "txHash": "0xce911a1d02c2f4764893407ec53a522a7ccde680dfdc4bf91ee97cb681c4a8b4",
+  "fromAddress": "0x11b886D436B0bCa23BA0e123609FB72c57e2755f",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2026-01-16T03:34:52.170Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2026-01-16T03:34:52.357Z",
+    "lastChecked": "2026-01-16T03:35:12.741Z",
+    "blockNumber": 75533112,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2026-01-16T03:34:52.363Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-16T03:35:13.298Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "6969b1f1cddf7d97ddaf9e6e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6969b29cb03a855cdb36d9bb"
+  },
+  "userId": {
+    "$oid": "6969b0a5b03a855cdb36d989"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 100,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 2.63,
+    "totalFee": 27.63
+  },
+  "finalAmount": 72.38,
+  "txHash": "0x928168ed51d0b80a2e28b10318c03ae6627449105c9d809390178d28e5488565",
+  "fromAddress": "0x11b886D436B0bCa23BA0e123609FB72c57e2755f",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2026-01-16T03:38:04.360Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2026-01-16T03:38:04.593Z",
+    "lastChecked": "2026-01-16T03:38:25.055Z",
+    "blockNumber": 75533539,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2026-01-16T03:38:04.595Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-16T03:38:25.845Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "6969b2b1b03a855cdb36d9c0"
+  }
+},
+{
+  "_id": {
+    "$oid": "6969b54eb03a855cdb36d9e4"
+  },
+  "userId": {
+    "$oid": "692d0e9785891d12688980f3"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 100,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 2.63,
+    "totalFee": 27.63
+  },
+  "finalAmount": 72.38,
+  "txHash": "0x3c0eba01ab756fb56f51497527e091f9ed2be5276c83f1349da88a22efbc7544",
+  "fromAddress": "0x55E1a52baD3A0b9F6FBcD5372ad3b981D9A36eE8",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2026-01-16T03:49:33.723Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2026-01-16T03:49:34.869Z",
+    "lastChecked": "2026-01-16T03:49:55.271Z",
+    "blockNumber": 75535072,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2026-01-16T03:49:34.876Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-16T03:49:55.727Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "6969b563b03a855cdb36d9f6"
+  }
+},
+{
+  "_id": {
+    "$oid": "6969b647b03a855cdb36da4b"
+  },
+  "userId": {
+    "$oid": "68fcbc6d37a1eaeefa59bf60"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 100,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 2.63,
+    "totalFee": 27.63
+  },
+  "finalAmount": 72.38,
+  "txHash": "0xa8fd0248dbf718b5009b590d01de03285b3ccfc95f1d327d79327b0efe047992",
+  "fromAddress": "0x55E1a52baD3A0b9F6FBcD5372ad3b981D9A36eE8",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2026-01-16T03:53:43.837Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2026-01-16T03:53:43.949Z",
+    "lastChecked": "2026-01-16T03:54:04.330Z",
+    "blockNumber": 75535626,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2026-01-16T03:53:43.956Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-16T03:54:05.255Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "6969b65db03a855cdb36da50"
+  }
+},
+{
+  "_id": {
+    "$oid": "6969b698b03a855cdb36da6a"
+  },
+  "userId": {
+    "$oid": "692d0eb685891d126889812d"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 100,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 2.63,
+    "totalFee": 27.63
+  },
+  "finalAmount": 72.38,
+  "txHash": "0xb0133702749d9cb29575b6f4a25399525c074791bc8f671422e90d42ecf266f9",
+  "fromAddress": "0x55E1a52baD3A0b9F6FBcD5372ad3b981D9A36eE8",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2026-01-16T03:55:04.208Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2026-01-16T03:55:04.395Z",
+    "lastChecked": "2026-01-16T03:55:25.805Z",
+    "blockNumber": 75535805,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2026-01-16T03:55:04.399Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-16T03:55:26.698Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "6969b6aeb03a855cdb36da6f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6969b74cb03a855cdb36da9a"
+  },
+  "userId": {
+    "$oid": "6927c432262e7f79303b6c33"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "0x420a4e451d445fa4dc95de8bb6e1f8285b653b4383e4f3dd8cde4ca797d5e828",
+  "fromAddress": "0x55e1a52bad3a0b9f6fbcd5372ad3b981d9a36ee8",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2026-01-16T03:58:03.831Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2026-01-16T03:58:04.253Z",
+    "lastChecked": "2026-01-16T03:58:24.912Z",
+    "blockNumber": 75536204,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2026-01-16T03:58:04.256Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-16T03:58:25.389Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "6969b761b03a855cdb36da9f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6969b8dab03a855cdb36dad3"
+  },
+  "userId": {
+    "$oid": "6927c432262e7f79303b6c33"
+  },
+  "cardId": {
+    "$oid": "6969b761b03a855cdb36da9f"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 49.68,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 1.68,
+    "totalFee": 1.68
+  },
+  "finalAmount": 48,
+  "txHash": "0xda50b20d7612d8a4604fb4a5e56594bc2be527649332743cd1e636630b490a0d",
+  "fromAddress": "0x55e1a52bad3a0b9f6fbcd5372ad3b981d9a36ee8",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "metadata": {
+    "san": "a81ef46020260116115827",
+    "topupAmount": 48,
+    "feeAmount": 1.68,
+    "feePercentage": 3.5,
+    "totalPaid": 49.68,
+    "currency": "USD",
+    "cardBalance": 24.13,
+    "previousBalance": 24.13,
+    "estimatedNewBalance": 72.13,
+    "lastChecked": "2026-01-16T04:10:29.489Z",
+    "blockNumber": {
+      "$numberLong": "75537088"
+    },
+    "fee": {
+      "$numberLong": "34515"
+    },
+    "feeApiResponse": {
+      "success": true,
+      "message": "Updated topup fee (+1.68) successfully",
+      "data": {
+        "totalTopupfee": 186.35999999999999,
+        "totalCardIssuancefee": 1150,
+        "amountsAdded": {
+          "topupFee": 1.68
+        },
+        "updatedAt": "2026-01-16T04:10:30.029Z"
+      }
+    },
+    "feeRecordedAt": "2026-01-16T04:10:30.088Z",
+    "externalTopupSuccess": true,
+    "request_id": "dec9de3c-3031-4b1b-a417-2fd0596c3999",
+    "topupid": 985272422,
+    "externalTopupResponse": {
+      "request_id": "dec9de3c-3031-4b1b-a417-2fd0596c3999",
+      "topupid": 985272422
+    },
+    "externalTopupTimestamp": "2026-01-16T04:10:30.157Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-16T04:04:42.340Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-16T04:10:30.159Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6969bb67b03a855cdb36db2e"
+  },
+  "userId": {
+    "$oid": "6969b09cb03a855cdb36d983"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 100,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 2.63,
+    "totalFee": 27.63
+  },
+  "finalAmount": 72.38,
+  "txHash": "0x788992a86e3f3beb886401dad28e0e93e273d2f0815d72d54119f5439d1e048b",
+  "fromAddress": "0x55E1a52baD3A0b9F6FBcD5372ad3b981D9A36eE8",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2026-01-16T04:15:35.570Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2026-01-16T04:15:35.753Z",
+    "lastChecked": "2026-01-16T04:15:56.553Z",
+    "blockNumber": 75538542,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2026-01-16T04:15:35.756Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-16T04:15:57.383Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "6969bb7db03a855cdb36db33"
+  }
+},
+{
+  "_id": {
+    "$oid": "6969de03b03a855cdb36dbcb"
+  },
+  "userId": {
+    "$oid": "6969dd63b03a855cdb36dbaf"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 100,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 2.63,
+    "totalFee": 27.63
+  },
+  "finalAmount": 72.38,
+  "txHash": "0x026eaff65b22c3928d829b1c3e98938b4481e7f7e242a7ca74901d406d9fb33d",
+  "fromAddress": "0x55E1a52baD3A0b9F6FBcD5372ad3b981D9A36eE8",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2026-01-16T06:43:14.378Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2026-01-16T06:43:15.146Z",
+    "lastChecked": "2026-01-16T06:43:35.918Z",
+    "blockNumber": 75558226,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2026-01-16T06:43:15.151Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-16T06:43:36.478Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "6969de18b03a855cdb36dbd0"
+  }
+},
+{
+  "_id": {
+    "$oid": "6969df70b03a855cdb36dc0c"
+  },
+  "userId": {
+    "$oid": "6969df38b03a855cdb36dbf9"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 100,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 2.63,
+    "totalFee": 27.63
+  },
+  "finalAmount": 72.38,
+  "txHash": "0x284724b3c3ae4e136413a8ebb7963329ca4a89071e1f6d423a17afbb3d92301e",
+  "fromAddress": "0x55E1a52baD3A0b9F6FBcD5372ad3b981D9A36eE8",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2026-01-16T06:49:20.487Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2026-01-16T06:49:20.708Z",
+    "lastChecked": "2026-01-16T06:49:41.057Z",
+    "blockNumber": 75559038,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2026-01-16T06:49:20.711Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-16T06:49:41.536Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "6969df85b03a855cdb36dc11"
+  }
+},
+{
+  "_id": {
+    "$oid": "696c808bb03a855cdb36e22b"
+  },
+  "userId": {
+    "$oid": "6901e1fc822bdaef9fa11d4d"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 500,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 16.63,
+    "totalFee": 41.63
+  },
+  "finalAmount": 458.38,
+  "txHash": "0xd9ee4cb965cd8ffe9e9a89aefb93ff112aebf2d219324d79ab10d1791b622fb3",
+  "fromAddress": "0x11b886D436B0bCa23BA0e123609FB72c57e2755f",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2026-01-18T06:41:15.144Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2026-01-18T06:41:15.549Z",
+    "lastChecked": "2026-01-18T06:41:36.046Z",
+    "blockNumber": 75941659,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2026-01-18T06:41:15.556Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-18T06:41:36.548Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "696c80a0b03a855cdb36e230"
+  }
+},
+{
+  "_id": {
+    "$oid": "696c87e1b03a855cdb36e2d9"
+  },
+  "userId": {
+    "$oid": "6936cabf235c177fb157d91a"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 100,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 2.63,
+    "totalFee": 27.63
+  },
+  "finalAmount": 72.38,
+  "txHash": "0x81169e00736c599b5039c7071278ca782bab1383ba2822a504f033a11aecd0ec",
+  "fromAddress": "0x11b886D436B0bCa23BA0e123609FB72c57e2755f",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2026-01-18T07:12:33.475Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2026-01-18T07:12:33.783Z",
+    "lastChecked": "2026-01-18T07:12:55.279Z",
+    "blockNumber": 75945830,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2026-01-18T07:12:33.786Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-18T07:12:55.741Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "696c87f7b03a855cdb36e2f1"
+  }
+},
+{
+  "_id": {
+    "$oid": "696c89f8b03a855cdb36e316"
+  },
+  "userId": {
+    "$oid": "696c80ecb03a855cdb36e235"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 100,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 2.63,
+    "totalFee": 27.63
+  },
+  "finalAmount": 72.38,
+  "txHash": "0x237f51619caf51d2bef9c75ba9363a3ffe904c665a7b996670390b482e931fac",
+  "fromAddress": "0x11b886d436b0bca23ba0e123609fb72c57e2755f",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2026-01-18T07:21:25.143Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2026-01-18T07:21:28.891Z",
+    "lastChecked": "2026-01-18T07:21:50.088Z",
+    "blockNumber": 75947011,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2026-01-18T07:21:28.894Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-18T07:21:50.551Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "696c8a0eb03a855cdb36e31b"
+  }
+},
+{
+  "_id": {
+    "$oid": "696c94cab03a855cdb36e46f"
+  },
+  "userId": {
+    "$oid": "6901e1fc822bdaef9fa11d4d"
+  },
+  "cardId": {
+    "$oid": "696c80a0b03a855cdb36e230"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 1552.5,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 52.5,
+    "totalFee": 52.5
+  },
+  "finalAmount": 1500,
+  "txHash": "0x5138e89029e977fc0894216a4dbf452fe1b7bb9188b671d10a0721c8c10de386",
+  "fromAddress": "0x11b886D436B0bCa23BA0e123609FB72c57e2755f",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "metadata": {
+    "san": "a961a5d720260118144137",
+    "topupAmount": 1500,
+    "feeAmount": 52.5,
+    "feePercentage": 3.5,
+    "totalPaid": 1552.5,
+    "currency": "USD",
+    "cardBalance": 458.38,
+    "previousBalance": 458.38,
+    "estimatedNewBalance": 1958.38,
+    "lastChecked": "2026-01-18T08:07:59.637Z",
+    "blockNumber": {
+      "$numberLong": "75953175"
+    },
+    "fee": {
+      "$numberLong": "34515"
+    },
+    "feeApiResponse": {
+      "success": true,
+      "message": "Updated topup fee (+52.5) successfully",
+      "data": {
+        "totalTopupfee": 268.64,
+        "totalCardIssuancefee": 1300,
+        "amountsAdded": {
+          "topupFee": 52.5
+        },
+        "updatedAt": "2026-01-18T08:08:00.432Z"
+      }
+    },
+    "feeRecordedAt": "2026-01-18T08:08:00.477Z",
+    "externalTopupSuccess": true,
+    "request_id": "e46c75b3-90c7-4208-be20-2f0a0a90efe9",
+    "topupid": 987433284,
+    "externalTopupResponse": {
+      "request_id": "e46c75b3-90c7-4208-be20-2f0a0a90efe9",
+      "topupid": 987433284
+    },
+    "externalTopupTimestamp": "2026-01-18T08:08:00.545Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-18T08:07:38.824Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-18T08:08:00.547Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "696c9849b03a855cdb36e4a7"
+  },
+  "userId": {
+    "$oid": "6936a1a0a0a35a0f7eda7d3f"
+  },
+  "cardId": {
+    "$oid": "6936aa8dd263bbc7f9bb1313"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 1552.5,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 52.5,
+    "totalFee": 52.5
+  },
+  "finalAmount": 1500,
+  "txHash": "0xa951c58c6d20e3a52930b6451ca1f62293ee64d53167229aec98d964e5ef5b0e",
+  "fromAddress": "0x11b886D436B0bCa23BA0e123609FB72c57e2755f",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "metadata": {
+    "san": "e2c44b7920251208183807",
+    "topupAmount": 1500,
+    "feeAmount": 52.5,
+    "feePercentage": 3.5,
+    "totalPaid": 1552.5,
+    "currency": "USD",
+    "cardBalance": 458.38,
+    "previousBalance": 458.38,
+    "estimatedNewBalance": 1958.38,
+    "lastChecked": "2026-01-18T08:26:16.423Z",
+    "blockNumber": {
+      "$numberLong": "75955162"
+    },
+    "fee": {
+      "$numberLong": "34515"
+    },
+    "externalTopupSuccess": true,
+    "request_id": "00b604db-3c1b-44ca-b595-7a155c808129",
+    "topupid": 987443008,
+    "externalTopupResponse": {
+      "request_id": "00b604db-3c1b-44ca-b595-7a155c808129",
+      "topupid": 987443008
+    },
+    "externalTopupTimestamp": "2026-01-18T08:26:27.192Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-18T08:22:33.019Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-18T08:26:27.193Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "696d4c83b03a855cdb36e71b"
+  },
+  "userId": {
+    "$oid": "6940dc6bbf0c1fbb8d1f2b72"
+  },
+  "cardId": {
+    "$oid": "6940de79bf0c1fbb8d1f2b89"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 310.5,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 10.5,
+    "totalFee": 10.5
+  },
+  "finalAmount": 300,
+  "txHash": "0xa466fdddd8939843463ead19783365e078511a2a743f9de236779fcd001c17b3",
+  "fromAddress": "0x5f2ed12b074b4c25db25c0c1981d9a0b35ad5c1c",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "metadata": {
+    "san": "385adfdd20251216122218",
+    "topupAmount": 300,
+    "feeAmount": 10.5,
+    "feePercentage": 3.5,
+    "totalPaid": 310.5,
+    "currency": "USD",
+    "cardBalance": 72.38,
+    "previousBalance": 72.38,
+    "estimatedNewBalance": 372.38,
+    "lastChecked": "2026-01-18T22:33:23.815Z",
+    "blockNumber": {
+      "$numberLong": "76057662"
+    },
+    "fee": {
+      "$numberLong": "34515"
+    },
+    "externalTopupSuccess": true,
+    "request_id": "a201e48f-046e-4780-b8e9-e9ae105cbaae",
+    "topupid": 988061164,
+    "externalTopupResponse": {
+      "request_id": "a201e48f-046e-4780-b8e9-e9ae105cbaae",
+      "topupid": 988061164
+    },
+    "externalTopupTimestamp": "2026-01-18T22:33:34.204Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-18T21:11:31.621Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-18T22:33:34.206Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697093452b728162922f3ed0"
+  },
+  "userId": {
+    "$oid": "68f5045a02ca9897f4b446ca"
+  },
+  "cardId": {
+    "$oid": "68f9a7f1fab1daaac079acb9"
+  },
+  "type": "card_topup",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 10.35,
+  "fees": {
+    "issuanceFee": 0,
+    "topupFee": 0.35,
+    "totalFee": 0.35
+  },
+  "finalAmount": 10,
+  "txHash": "0x264fcccd207c8010feb1f0891e0c57c1d6646a4651b06dfa0c47c1bcb18c6f1e",
+  "fromAddress": "0x27aF525eddD0358935907Da29507fD08fb15A858",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 1,
+  "network": "Ethereum Mainnet",
+  "metadata": {
+    "san": "7b8be0c020251023112711",
+    "topupAmount": 10,
+    "feeAmount": 0.35,
+    "feePercentage": 3.5,
+    "totalPaid": 10.35,
+    "currency": "USD",
+    "cardBalance": 24.13,
+    "previousBalance": 24.13,
+    "estimatedNewBalance": 34.129999999999995,
+    "lastChecked": "2026-01-21T08:50:34.049Z",
+    "blockNumber": {
+      "$numberLong": "24282077"
+    },
+    "fee": {
+      "$numberLong": "41297"
+    },
+    "feeApiResponse": {
+      "success": true,
+      "message": "Updated topup fee (+0.35) successfully",
+      "data": {
+        "totalTopupfee": 331.99,
+        "totalCardIssuancefee": 1300,
+        "amountsAdded": {
+          "topupFee": 0.35
+        },
+        "updatedAt": "2026-01-21T08:50:34.519Z"
+      }
+    },
+    "feeRecordedAt": "2026-01-21T08:50:34.566Z",
+    "externalTopupSuccess": true,
+    "request_id": "99bc9602-c19c-424e-9a30-b148041e21f6",
+    "topupid": 990466358,
+    "externalTopupResponse": {
+      "request_id": "99bc9602-c19c-424e-9a30-b148041e21f6",
+      "topupid": 990466358
+    },
+    "externalTopupTimestamp": "2026-01-21T08:50:34.634Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-21T08:50:13.308Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-21T08:50:34.636Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697096fe2b728162922f3f2e"
+  },
+  "userId": {
+    "$oid": "69708ff92b728162922f3e8a"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 50,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 0.88,
+    "totalFee": 25.88
+  },
+  "finalAmount": 24.13,
+  "txHash": "0x42d750764660b85306e18d32ad0fa8d59f2c5973687b374e60ff4970fe25fb27",
+  "fromAddress": "0x11b886D436B0bCa23BA0e123609FB72c57e2755f",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2026-01-21T09:06:06.058Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2026-01-21T09:06:06.380Z",
+    "lastChecked": "2026-01-21T09:07:13.666Z",
+    "blockNumber": 76536837,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2026-01-21T09:06:06.389Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-21T09:07:14.090Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "697097422b728162922f3f4e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6970cc812b728162922f42c2"
+  },
+  "userId": {
+    "$oid": "6970ca6e2b728162922f4293"
+  },
+  "type": "card_issuance",
+  "status": "completed",
+  "result": "SUCCESS",
+  "amount": 100,
+  "fees": {
+    "issuanceFee": 25,
+    "topupFee": 2.63,
+    "totalFee": 27.63
+  },
+  "finalAmount": 72.38,
+  "txHash": "0xf827fd13afeb07c8273ffd73f3555849584c501392458d231db730a4b20952a6",
+  "fromAddress": "0x11b886D436B0bCa23BA0e123609FB72c57e2755f",
+  "toAddress": "0xFa487c0DAbE5E1B6b0cF4AEb8d7e0284f8893989",
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "cardType": "E0W00008_USD_",
+  "metadata": {
+    "cardName": "Mastercard USD - Hong Kong (Apple Pay, Google Pay)",
+    "timestamp": "2026-01-21T12:54:24.885Z",
+    "productCode": "E0W00008",
+    "currency": "USD",
+    "bin": "",
+    "isOnlyIssuance": false,
+    "isTopup": true,
+    "countryCode": "+1",
+    "createdTimestamp": "2026-01-21T12:54:25.008Z",
+    "lastChecked": "2026-01-21T12:54:45.450Z",
+    "blockNumber": 76567270,
+    "fee": {
+      "$numberLong": "34515"
+    }
+  },
+  "createdAt": {
+    "$date": "2026-01-21T12:54:25.014Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-21T12:54:46.316Z"
+  },
+  "__v": 0,
+  "cardId": {
+    "$oid": "6970cc962b728162922f42c7"
+  }
+}]

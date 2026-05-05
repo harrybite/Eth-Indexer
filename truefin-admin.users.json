@@ -1,0 +1,35 @@
+[{
+  "_id": {
+    "$oid": "6965df13563855adfdca4856"
+  },
+  "amfiId": "121212",
+  "email": "myomyintaung064@gmail.com",
+  "name": "Myo Myint Aung",
+  "isVerified": true,
+  "createdAt": {
+    "$date": "2026-01-13T05:58:43.761Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-13T05:58:44.720Z"
+  },
+  "__v": 0,
+  "amfiWalletAddress": "0x9b9812860891e656254b8c01e5211c2ddad4ffa8"
+},
+{
+  "_id": {
+    "$oid": "696a02a803191826b6b5f63a"
+  },
+  "amfiId": "123456",
+  "email": "harrybite29@gmail.com",
+  "balanceInUSD": 1211,
+  "name": "harry bite",
+  "isVerified": true,
+  "amfiWalletAddress": "0x0b96e543dd56f4c0fd7ee57315a7aef8dd624856",
+  "createdAt": {
+    "$date": "2026-01-16T09:19:36.849Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-19T05:33:36.691Z"
+  },
+  "__v": 0
+}]

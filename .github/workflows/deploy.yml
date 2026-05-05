@@ -1,0 +1,102 @@
+name: Build and Deploy to Digital Ocean
+
+on:
+  push:
+    branches:
+      - maal
+      - bsc
+      - ethereum
+  workflow_dispatch:
+
+env:
+  AWS_REGION: ap-southeast-1
+  ECR_REPOSITORY: amfi-indexer
+  IMAGE_TAG: ${{ github.ref_name }}
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Login to Amazon ECR
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v2
+
+      - name: Build, tag, and push image to Amazon ECR
+        env: 
+          ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+        run: |
+          docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
+          docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
+         
+
+  deploy-to-maal:
+    name: Deploy to Maal  
+    if: github.ref == 'refs/heads/maal'
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Configure Kubeconfig
+        uses: azure/k8s-set-context@v4
+        with:
+          method: kubeconfig
+          kubeconfig: ${{ secrets.KUBECONFIG }}
+
+      - name: Restart deployment image
+        run: |
+          kubectl rollout restart deployment/maal-indexer -n indexer
+
+      - name: Verify deployment rollout
+        run: |
+          kubectl rollout status deployment/maal-indexer -n indexer --timeout=300s
+
+  deploy-to-bsc:
+    name: Deploy to BSC
+    if: github.ref == 'refs/heads/bsc'
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Configure Kubeconfig
+        uses: azure/k8s-set-context@v4
+        with:
+          method: kubeconfig
+          kubeconfig: ${{ secrets.KUBECONFIG }}
+
+      - name: Restart deployment image
+        run: |
+          kubectl rollout restart deployment/bsc-indexer -n indexer
+
+      - name: Verify deployment rollout
+        run: |
+          kubectl rollout status deployment/bsc-indexer -n indexer --timeout=300s
+
+  deploy-to-ethereum:
+    name: Deploy to Ethereum
+    if: github.ref == 'refs/heads/ethereum'
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Configure Kubeconfig
+        uses: azure/k8s-set-context@v4
+        with:
+          method: kubeconfig
+          kubeconfig: ${{ secrets.KUBECONFIG }}
+
+      - name: Restart deployment image
+        run: |
+          kubectl rollout restart deployment/ethereum-indexer -n indexer
+
+      - name: Verify deployment rollout
+        run: |
+          kubectl rollout status deployment/ethereum-indexer -n indexer --timeout=300s
