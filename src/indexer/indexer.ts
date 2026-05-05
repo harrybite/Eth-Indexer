@@ -72,7 +72,7 @@ async function persistTransfers(logs: Awaited<ReturnType<typeof fetchErc20Transf
     };
   }).filter((doc) => doc !== null);
 
-  console.log("Inserting transfer docs", { count: docs.length });
+  logger.info({ count: docs.length }, "Inserting transfer docs");
 
   // Use the new validated transfer storage service
   const insertedDocs = await storeValidatedTransfers(docs);
@@ -83,10 +83,11 @@ async function persistTransfers(logs: Awaited<ReturnType<typeof fetchErc20Transf
       insertedDocs.map((d) => ({ to: d.to, value: d.value, tokenName: d.tokenName, decimals: d.decimals })));
   }
 
-    // Update chain-specific balances for both senders and receivers
-    logger.info( { count: docs.length }, "Updating chain-specific balances for inserted transfers");
+    // Update chain-specific balances only for newly inserted transfers to avoid double-counting on re-runs
+    if (insertedDocs.length > 0) {
+    logger.info({ count: insertedDocs.length }, "Updating chain-specific balances for inserted transfers");
     await updateChainSpecificBalances(
-      docs.map((d) => ({
+      insertedDocs.map((d) => ({
         chainId: d.chainId,
         tokenName: d.tokenName,
         tokenAddress: d.tokenAddress,
@@ -96,12 +97,14 @@ async function persistTransfers(logs: Awaited<ReturnType<typeof fetchErc20Transf
         value: d.value,
       })),
     );
+  }
 
 }
 
 function isDuplicateKeyError(err: unknown): boolean {
   if (!err || typeof err !== "object") return false;
   const record = err as Record<string, unknown>;
+  if (record.name === "MongoBulkWriteError") return true;
   return record.code === 11000;
 }
 
@@ -121,7 +124,7 @@ async function persistNativeTransfers(params: {
     txHash: string;
   }> = [];
 
-  console.log("Native transfers (receipt-based)", { fromBlock, toBlock });
+  logger.info({ fromBlock, toBlock }, "Native transfers (receipt-based)");
 
   // 1. Fetch block hashes only (cheap & reliable)
   for (let blockNumber = fromBlock; blockNumber <= toBlock; blockNumber++) {
@@ -130,29 +133,24 @@ async function persistNativeTransfers(params: {
 
     for (const txHash of block.transactions) {
       // 2. Fetch receipt (canonical source)
-      console.log("found txHash", txHash);
-
       const receipt = await provider.getTransactionReceipt(txHash as string);
-
-      console.log("Fetched receipt", txHash, receipt );
       if (!receipt || receipt.status !== 1) continue;
 
 
       // 3. Fetch transaction to read native value
       const tx = await provider.getTransaction(txHash as string);
-      console.log("Fetched transaction", txHash, tx );
       if (!tx) continue;
 
       if (!tx.from || !tx.to) continue;
       if (tx.value === 0n) continue;
 
-      console.log('Found native transfer',{
+      logger.debug({
         from: tx.from,
         to: tx.to,
         value: tx.value.toString(),
         blockNumber: receipt.blockNumber,
         txHash: txHash as string,
-      })
+      }, "Found native transfer");
 
       docs.push({
         chainId: env.CHAIN_ID,
@@ -166,7 +164,7 @@ async function persistNativeTransfers(params: {
   }
 
   if (docs.length === 0) {
-    console.log("No native transfers found", { fromBlock, toBlock });
+    logger.info({ fromBlock, toBlock }, "No native transfers found");
     return;
   }
 
@@ -176,31 +174,30 @@ async function persistNativeTransfers(params: {
   } catch (err: unknown) {
     if (!isDuplicateKeyError(err)) throw err;
     const anyErr = err as Record<string, unknown>;
-    const maybeInserted = anyErr.insertedDocs;
-    if (Array.isArray(maybeInserted)) {
-      insertedDocs = maybeInserted as Array<(typeof docs)[number]>;
-    }
+    const result = anyErr.result as Record<string, unknown> | undefined;
+    const insertedCount = result ? (result.insertedCount as number | undefined) ?? 0 : 0;
+    logger.info({ inserted: insertedCount }, "Partially inserted native transfers (some duplicates skipped)");
   }
 
-  // if (insertedDocs.length === 0) return;
+  if (insertedDocs.length === 0) return;
 
-  // const nativeByToAddress = new Map<string, number>();
+  const nativeByToAddress = new Map<string, number>();
 
-  // for (const d of insertedDocs) {
-  //   const amountNative = Number(formatUnits(BigInt(d.value), NATIVE_TOKEN_DECIMALS));
-  //   if (!Number.isFinite(amountNative) || amountNative <= 0) continue;
+  for (const d of insertedDocs) {
+    const amountNative = Number(formatUnits(BigInt(d.value), NATIVE_TOKEN_DECIMALS));
+    if (!Number.isFinite(amountNative) || amountNative <= 0) continue;
 
 
-  //   nativeByToAddress.set(
-  //     d.to,
-  //     (nativeByToAddress.get(d.to) ?? 0) + amountNative,
-  //   );
-  // }
+    nativeByToAddress.set(
+      d.to,
+      (nativeByToAddress.get(d.to) ?? 0) + amountNative,
+    );
+  }
 
-  // await updateUserNativeBalancesByAddress({
-  //   nativeByToAddress,
-  //   reason: "native-transfer",
-  // });
+  await updateUserNativeBalancesByAddress({
+    nativeByToAddress,
+    reason: "native-transfer",
+  });
 }
 
 export async function runIndexerOnce() {
@@ -240,20 +237,14 @@ export async function runIndexerOnce() {
       tokenAddresses: tokenAddresses,
     });
 
-    console.log("Logs fetched", { 
-      logsLength: logs.length,
-      fromBlock: chunkFrom,
-      toBlock: chunkTo
-     });
+    logger.info({ logsLength: logs.length, fromBlock: chunkFrom, toBlock: chunkTo }, "Logs fetched");
 
-    const data = await persistTransfers(logs);
-    console.log("Native token indexing enabled:", env.INDEX_NATIVE_TOKEN);
+    await persistTransfers(logs);
+    logger.debug({ enabled: env.INDEX_NATIVE_TOKEN }, "Native token indexing");
     if (env.INDEX_NATIVE_TOKEN) {
       await persistNativeTransfers({ provider, fromBlock: chunkFrom, toBlock: chunkTo });
     }
     await setLastIndexedBlock(chunkTo);
-
-    console.log("data from persistTransfers", data);
 
     logger.info(
       { chunkFrom, chunkTo, logs: logs.length, lastIndexedBlock: chunkTo },
