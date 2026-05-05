@@ -4,6 +4,7 @@ export type TransferDocument = {
   chainId: number;
   tokenAddress: string;
   tokenName: string;
+  decimals: number;
   from: string;
   to: string;
   value: string;
@@ -21,6 +22,7 @@ const transferSchema = new Schema<TransferDocument>(
     chainId: { type: Number, required: true, index: true },
     tokenAddress: { type: String, required: true, index: true, lowercase: true, },
     tokenName: { type: String, required: false },
+    decimals: { type: Number, required: true },
     from: { type: String, required: true, index: true, lowercase: true, },
     to: { type: String, required: true, index: true, lowercase: true,  },
     value: { type: String, required: true },

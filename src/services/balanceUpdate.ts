@@ -9,6 +9,8 @@ import { env } from "../config/env.js";
 export type TransferForBalanceUpdate = {
 	to: string;
 	value: string; // raw integer amount (wei-like) as string
+	tokenName: string; // optional, only used for logging
+	decimals: number; // optional, only used for logging
 };
 
 function toFiniteNumberOrNull(value: string): number | null {
@@ -32,19 +34,17 @@ function parseTokenAmount(value: string, tokenDecimals: number): number | null {
  * Note: This intentionally does NOT upsert users.
  */
 export async function updateUserBalancesFromTransfers(
-	transfers: TransferForBalanceUpdate[],
-	options?: { tokenDecimals?: number },
+	transfers: TransferForBalanceUpdate[]
 ): Promise<{ addressesTouched: number; usersMatched: number; usersModified: number; skipped: number }> {
 	if (transfers.length === 0) {
 		return { addressesTouched: 0, usersMatched: 0, usersModified: 0, skipped: 0 };
 	}
 
-	const tokenDecimals = options?.tokenDecimals ?? TOKEN_DECIMALS;
 
 	const totalsByAddress = new Map<string, number>();
 	let skipped = 0;
 
-	console.log('transfers to process for balance update', { count: transfers.length, tokenDecimals, transfers });
+	console.log('transfers to process for balance update', { count: transfers.length, transfers });
 
 	for (const transfer of transfers) {
 		const to = (transfer.to ?? "").toLowerCase();
@@ -53,7 +53,7 @@ export async function updateUserBalancesFromTransfers(
 			continue;
 		}
 
-		const amount = parseTokenAmount(transfer.value, tokenDecimals);
+		const amount = parseTokenAmount(transfer.value, transfer.decimals);
 		if (amount === null || amount === 0) {
 			skipped++;
 			continue;
@@ -80,9 +80,9 @@ export async function updateUserBalancesFromTransfers(
 	}
 
 	console.log('updating balances for addresses', totalsByAddress);
-	const ops = Array.from(totalsByAddress.entries()).map(([amfiWalletAddress, amount]) => ({
+	const ops = Array.from(totalsByAddress.entries()).map(([ walletAddress, amount]) => ({
 		updateOne: {
-			filter: { amfiWalletAddress },
+			filter: { walletAddress },
 			update: { $inc: { balanceInUSD: amount } },
 			upsert: false,
 		},
@@ -92,7 +92,6 @@ export async function updateUserBalancesFromTransfers(
 
 	logger.info(
 		{
-			tokenDecimals,
 			addressesTouched: totalsByAddress.size,
 			usersMatched: res.matchedCount,
 			usersModified: res.modifiedCount,
@@ -118,10 +117,10 @@ export async function updateUserNativeBalancesByAddress(params: {
 		return { addressesTouched: 0, usersMatched: 0, usersModified: 0, skipped: 0 };
 	}
 
-	const ops = Array.from(nativeByToAddress.entries()).map(([amfiWalletAddress, amountNative]) => ({
+	const ops = Array.from(nativeByToAddress.entries()).map(([ walletAddress, amountNative]) => ({
 		updateOne: {
-			filter: { amfiWalletAddress },
-			update: { $inc: { maalBalance: amountNative } },
+			filter: { walletAddress },
+			update: { $inc: { nativeBalance: amountNative } },
 			upsert: false,
 		},
 	}));
@@ -135,7 +134,7 @@ export async function updateUserNativeBalancesByAddress(params: {
 			usersModified: res.modifiedCount,
 			reason,
 		},
-		"Updated user USD balances",
+		"Updated user native balances",
 	);
 
 	return {

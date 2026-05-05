@@ -13,7 +13,7 @@ import {
   updateUserBalancesFromTransfers,
   updateUserNativeBalancesByAddress,
 } from "../services/balanceUpdate.js";
-import { FEE, MINIMUM_TRANSFER_AMOUNT, SUPPORTED_TOKENS, TOKEN_DECIMALS } from "../constent.js";
+import { FEE, MINIMUM_TRANSFER_AMOUNT, SUPPORTED_TOKENS } from "../constent.js";
 import { storeValidatedTransfers } from "../services/transferStorage.js";
 import { updateChainSpecificBalances } from "../services/userTokenBalanceUpdate.js";
 import BigNumber from "bignumber.js";
@@ -32,9 +32,22 @@ async function persistTransfers(logs: Awaited<ReturnType<typeof fetchErc20Transf
   const docs = logs.map((log) => {
     const { from, to, value } = parseErc20Transfer(log);
     
+    // extract token address and find matching token config
+    const contractAddress = log.address.toLowerCase();
+    const tokenConfig = SUPPORTED_TOKENS.find(t => t.address.toLowerCase() === contractAddress);
     
+    // If token is not in our supported list, skip it
+    // although this should not happen since we are filtering by token addresses when fetching logs, this is an extra safety check
+    if (!tokenConfig) {
+      logger.warn(
+        { tokenAddress: contractAddress, txHash: log.transactionHash },
+        "Received transfer log for unsupported token address",
+      );
+      return null;
+    }
 
-    const txValue = new BigNumber(value).dividedBy(new BigNumber(10).pow(TOKEN_DECIMALS));
+    // Filter out transfers below the minimum transfer amount to avoid processing dust transfers that won't cover the fee
+    const txValue = new BigNumber(value).dividedBy(new BigNumber(10).pow(tokenConfig.decimals));
     if (txValue.isLessThan(MINIMUM_TRANSFER_AMOUNT)) {
       logger.info(
         { txHash: log.transactionHash, value: txValue.toString() },
@@ -44,11 +57,12 @@ async function persistTransfers(logs: Awaited<ReturnType<typeof fetchErc20Transf
     }
   
 
-    const tokenName = SUPPORTED_TOKENS.find(t => t.address.toLowerCase() === log.address.toLowerCase())?.name ?? "unknown";
+    const tokenName = tokenConfig.name;
     return {
       chainId: env.CHAIN_ID,
       tokenAddress: log.address.toLowerCase(),
       tokenName: tokenName,
+      decimals: tokenConfig.decimals,
       from,
       to,
       value,
@@ -66,13 +80,11 @@ async function persistTransfers(logs: Awaited<ReturnType<typeof fetchErc20Transf
   // Only apply balance increments for transfers that were newly inserted.
   if (insertedDocs.length > 0) {
     await updateUserBalancesFromTransfers(
-      insertedDocs.map((d) => ({ to: d.to, value: d.value })),
-      { tokenDecimals: TOKEN_DECIMALS },
-    );
+      insertedDocs.map((d) => ({ to: d.to, value: d.value, tokenName: d.tokenName, decimals: d.decimals })));
   }
 
     // Update chain-specific balances for both senders and receivers
-    console.log("Updating chain-specific balances for inserted transfers", { count: docs.length });
+    logger.info( { count: docs.length }, "Updating chain-specific balances for inserted transfers");
     await updateChainSpecificBalances(
       docs.map((d) => ({
         chainId: d.chainId,
@@ -80,9 +92,9 @@ async function persistTransfers(logs: Awaited<ReturnType<typeof fetchErc20Transf
         tokenAddress: d.tokenAddress,
         from: d.from,
         to: d.to,
+        decimals: d.decimals,
         value: d.value,
       })),
-      { tokenDecimals: TOKEN_DECIMALS },
     );
 
 }

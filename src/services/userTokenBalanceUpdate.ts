@@ -9,11 +9,8 @@ interface TransferForBalanceUpdate {
   tokenAddress: string;
   from: string;
   to: string;
+  decimals: number;
   value: string; // Raw value as string (wei, smallest unit)
-}
-
-interface UpdateOptions {
-  tokenDecimals: number;
 }
 
 /**
@@ -27,12 +24,9 @@ interface UpdateOptions {
  * @param options - Configuration including token decimals
  */
 export async function updateChainSpecificBalances(
-  transfers: TransferForBalanceUpdate[],
-  options: UpdateOptions
+  transfers: TransferForBalanceUpdate[]
 ): Promise<void> {
   if (transfers.length === 0) return;
-
-  const { tokenDecimals } = options;
 
   // Step 1: Extract all unique addresses (both from and to)
   const allAddresses = new Set<string>();
@@ -48,22 +42,16 @@ export async function updateChainSpecificBalances(
 
   // Step 2: Query database to find which addresses are actually users
   const validUsers = await User.find({
-    amfiWalletAddress: { $in: Array.from(allAddresses) },
-  }).select("_id amfiWalletAddress");
+    walletAddress: { $in: Array.from(allAddresses) },
+  }).select("_id walletAddress");
 
   // Create maps for quick lookup
   const addressToUserId = new Map<string, string>();
   for (const user of validUsers) {
-    if (user.amfiWalletAddress) {
-      addressToUserId.set(user.amfiWalletAddress.toLowerCase(), user._id.toString());
+    if (user.walletAddress) {
+      addressToUserId.set(user.walletAddress.toLowerCase(), user._id.toString());
     }
   }
-
-  console.log("Valid user addresses found:", {
-    totalAddresses: allAddresses.size,
-    validUsers: addressToUserId.size,
-    addresses: Array.from(addressToUserId.keys()),
-  });
 
   logger.info(
     { totalAddresses: allAddresses.size, validUsers: addressToUserId.size },
@@ -88,15 +76,6 @@ export async function updateChainSpecificBalances(
         continue;
       }
 
-      console.log("Processing transfer for balance update", {
-        from: transfer.from,
-        to: transfer.to,
-        chainId: transfer.chainId,
-        tokenSymbol: transfer.tokenName,
-        tokenAddress: transfer.tokenAddress,
-        amount: amount.toString(),
-      });
-
       const fromAddress = transfer.from.toLowerCase();
       const toAddress = transfer.to.toLowerCase();
       const { chainId, tokenName, tokenAddress } = transfer;
@@ -104,7 +83,7 @@ export async function updateChainSpecificBalances(
       const fromUserId = addressToUserId.get(fromAddress);
       const toUserId = addressToUserId.get(toAddress);
 
-      console.log("Processing transfer for balance update", {
+      logger.debug({
         from: fromAddress,
         to: toAddress,
         chainId,
@@ -113,7 +92,7 @@ export async function updateChainSpecificBalances(
         amount: amount.toString(),
         fromIsUser: !!fromUserId,
         toIsUser: !!toUserId,
-      });
+      }, "Processing transfer for balance update");
 
       // Update sender balance (decrease)
       if (fromUserId) {
@@ -124,9 +103,9 @@ export async function updateChainSpecificBalances(
           tokenSymbol: tokenName,
           tokenAddress,
           amountChange: -amount, // Negative for decrease
-          tokenDecimals,
+          tokenDecimals: transfer.decimals,
         });
-        console.log(`Decreased balance for ${fromAddress}: ${tokenName} by ${amount.toString()}`);
+        logger.debug({ address: fromAddress, tokenName, amount: amount.toString() }, "Decreased token balance");
         updatesProcessed++;
       }
 
@@ -139,9 +118,9 @@ export async function updateChainSpecificBalances(
           tokenSymbol: tokenName,
           tokenAddress,
           amountChange: amount, // Positive for increase
-          tokenDecimals,
+          tokenDecimals: transfer.decimals,
         });
-        console.log(`Increased balance for ${toAddress}: ${tokenName} by ${amount.toString()}`);
+        logger.debug({ address: toAddress, tokenName, amount: amount.toString() }, "Increased token balance");
         updatesProcessed++;
       }
 
@@ -215,11 +194,11 @@ async function updateUserBalance(params: {
     const finalBalanceBigInt = newBalanceBigInt < 0n ? 0n : newBalanceBigInt;
     const finalBalanceString = finalBalanceBigInt.toString();
 
-    // Calculate USD value (set to 0 for now, can be updated with price feeds later)
+    // Calculate USD value (for logging purposes, actual USD value would require price feed integration)
     const balanceInHumanReadable = Number(formatUnits(finalBalanceBigInt, tokenDecimals));
-    const balanceUsd = balanceInHumanReadable; 
+    const balanceUsd = 0;
 
-    console.log("Updating UserTokenBalance:", {
+    logger.debug({
       userId,
       walletAddress,
       chainId,
@@ -229,7 +208,7 @@ async function updateUserBalance(params: {
       amountChange: amountChange.toString(),
       newBalance: finalBalanceString,
       balanceInHumanReadable,
-    });
+    }, "Updating UserTokenBalance");
 
     // Upsert the balance record
     const result = await UserTokenBalanceModel.updateOne(
