@@ -1,4 +1,4 @@
-# Amfi Indexer
+# ETH Indexer
 
 A TypeScript (Node.js) EVM log indexer that watches ERC-20 `Transfer` events on any EVM-compatible chain and stores them in MongoDB. It also maintains per-user token balances and native token balances for registered wallet addresses.
 
