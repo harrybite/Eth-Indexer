@@ -3,14 +3,12 @@ name: Build and Deploy to Digital Ocean
 on:
   push:
     branches:
-      - maal
-      - bsc
-      - ethereum
+      - main
   workflow_dispatch:
 
 env:
   AWS_REGION: ap-southeast-1
-  ECR_REPOSITORY: amfi-indexer
+  ECR_REPOSITORY: eth-indexer
   IMAGE_TAG: ${{ github.ref_name }}
 
 jobs:
@@ -40,13 +38,6 @@ jobs:
           docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
           docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
          
-
-  deploy-to-maal:
-    name: Deploy to Maal  
-    if: github.ref == 'refs/heads/maal'
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
       - name: Configure Kubeconfig
         uses: azure/k8s-set-context@v4
         with:
@@ -55,35 +46,16 @@ jobs:
 
       - name: Restart deployment image
         run: |
-          kubectl rollout restart deployment/maal-indexer -n indexer
+          kubectl rollout restart deployment/eth-indexer -n indexer
 
       - name: Verify deployment rollout
         run: |
-          kubectl rollout status deployment/maal-indexer -n indexer --timeout=300s
+          kubectl rollout status deployment/eth-indexer -n indexer --timeout=300s
 
-  deploy-to-bsc:
-    name: Deploy to BSC
-    if: github.ref == 'refs/heads/bsc'
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Configure Kubeconfig
-        uses: azure/k8s-set-context@v4
-        with:
-          method: kubeconfig
-          kubeconfig: ${{ secrets.KUBECONFIG }}
-
-      - name: Restart deployment image
-        run: |
-          kubectl rollout restart deployment/bsc-indexer -n indexer
-
-      - name: Verify deployment rollout
-        run: |
-          kubectl rollout status deployment/bsc-indexer -n indexer --timeout=300s
 
   deploy-to-ethereum:
     name: Deploy to Ethereum
-    if: github.ref == 'refs/heads/ethereum'
+    if: github.ref == 'refs/heads/main'
     needs: build
     runs-on: ubuntu-latest
     steps:
@@ -95,8 +67,8 @@ jobs:
 
       - name: Restart deployment image
         run: |
-          kubectl rollout restart deployment/ethereum-indexer -n indexer
+          kubectl rollout restart deployment/eth-indexer -n indexer
 
       - name: Verify deployment rollout
         run: |
-          kubectl rollout status deployment/ethereum-indexer -n indexer --timeout=300s
+          kubectl rollout status deployment/eth-indexer -n indexer --timeout=300s
