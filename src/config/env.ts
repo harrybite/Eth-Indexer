@@ -45,7 +45,9 @@ const envSchema = z.object({
   MAAL_PRICE_CACHE_TTL_HOURS: z.coerce.number().int().positive().default(24),
   MAAL_PRICE_CACHE_PATH: z.string().default("data/maal-price.json"),
 
-  MONGODB_URI: z.string().min(1)
+  MONGODB_URI: z.string().min(1),
+
+  PORT: z.coerce.number().int().positive().default(3000),
 });
 
 export const env = envSchema.parse(process.env);

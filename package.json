@@ -9,6 +9,8 @@
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "start": "node dist/index.js",
+    "api:dev": "tsx watch src/backend/index.ts",
+    "api:start": "node dist/backend/index.js",
     "build": "rimraf dist && tsc -p tsconfig.build.json",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "lint": "eslint .",
@@ -23,12 +25,15 @@
     "bignumber.js": "^10.0.2",
     "dotenv": "^16.4.5",
     "ethers": "^6.13.4",
+    "express": "^5.2.1",
     "mongoose": "^8.9.5",
     "pino": "^9.5.0",
+    "pino-http": "^11.0.0",
     "pino-pretty": "^11.3.0",
     "zod": "^3.23.8"
   },
   "devDependencies": {
+    "@types/express": "^5.0.6",
     "@types/node": "^22.10.7",
     "@typescript-eslint/eslint-plugin": "^8.19.1",
     "@typescript-eslint/parser": "^8.19.1",
